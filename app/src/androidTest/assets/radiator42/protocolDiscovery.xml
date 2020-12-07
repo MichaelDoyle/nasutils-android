@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <content>
+        <upnp_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </upnp_enabled>
+        <OUTER_TAB>
+            <value />
+            <enable />
+        </OUTER_TAB>
+        <ms>
+            <value />
+            <enable />
+        </ms>
+        <bonjour_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </bonjour_enabled>
+        <PAGE>
+            <value />
+            <enable />
+        </PAGE>
+        <OPERATION>
+            <value />
+            <enable />
+        </OPERATION>
+        <bonjour_modified>
+            <value />
+            <enable />
+        </bonjour_modified>
+        <INNER_TAB>
+            <value />
+            <enable />
+        </INNER_TAB>
+        <bonjour_advertise_printer>
+            <value>1</value>
+            <enable>enabled</enable>
+        </bonjour_advertise_printer>
+        <bonjour_advertise_afp>
+            <value>1</value>
+            <enable>enabled</enable>
+        </bonjour_advertise_afp>
+        <bonjour_advertise_frontview>
+            <value>1</value>
+            <enable>enabled</enable>
+        </bonjour_advertise_frontview>
+    </content>
+    <error>No Errors</error>
+    <warning>No Warnings</warning>
+</payload>

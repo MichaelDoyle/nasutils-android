@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2013-2020 Michael J Doyle
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textview_nfs_threads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spinner_nfs_threads"
+        android:text="@string/label_nfs_threads"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="?android:attr/textColorPrimary"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinner_nfs_threads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textview_nfs_threads"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkbox_enable_nfsv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_nfs_threads"
+        android:text="@string/label_nfs_enable_nfsv4"
+        android:visibility="gone"
+        android:onClick="onEnableNfsv4" />
+
+    <TextView
+        android:id="@+id/textview_nfsv4_domain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edittext_nfsv4_domain"
+        android:layout_below="@+id/checkbox_enable_nfsv4"
+        android:text="@string/label_nfs_nfsv4_domain"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="?android:attr/textColorPrimary"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/edittext_nfsv4_domain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox_enable_nfsv4"
+        android:layout_toRightOf="@+id/textview_nfsv4_domain"
+        android:inputType="text"
+        android:maxLines="1"
+        android:visibility="gone" />
+
+</RelativeLayout>

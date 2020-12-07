@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="nas_utils" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_2" status="success">
+      <xs:result>
+        <xs:get-s resource-id="SystemInfo" resource-type="SystemInfo">
+          <SystemInfo>
+            <Model>VirtualBox Simulation</Model>
+            <Serial>0</Serial>
+            <Firmware_Name>ReadyNASOS</Firmware_Name>
+            <Firmware_Version>6.2.0</Firmware_Version>
+            <Firmware_Time>1416603901</Firmware_Time>
+            <Memory>1024</Memory>
+            <CPU_Number>1</CPU_Number>
+            <CPU_Frequency>2583.185059</CPU_Frequency>
+            <MAC_Address>08:00:27:3a:3a:f0,08:00:27:8c:8e:04</MAC_Address>
+            <Language>en-us</Language>
+            <Raid_Level>X-RAID2</Raid_Level>
+            <HDD_Vendor/>
+            <HDD_Model/>
+            <HDD_Serial/>
+            <HDD_Firmware/>
+            <Registered>0</Registered>
+            <Raid/>
+            <Anti-Virus-Def-Version>201501251708</Anti-Virus-Def-Version>
+            <Anti-Virus-Last-Updated>1422217158</Anti-Virus-Last-Updated>
+            <Read-Only-Data-Volumes>0</Read-Only-Data-Volumes>
+          </SystemInfo>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_3" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Network" resource-type="Network">
+          <Network>
+            <General_Settings>
+              <Hostname>virtual-nas</Hostname>
+            </General_Settings>
+          </Network>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_4" status="success">
+      <xs:result>
+        <xs:get-s resource-id="network_link_list" resource-type="network_link_collection">
+          <network_link_collection>
+            <network_link resource-id="eth0">
+              <link>eth0</link>
+              <ifname>eth0</ifname>
+              <speed>1000</speed>
+              <path>ethernet_0800273a3af0_cable</path>
+              <duplex>full</duplex>
+              <vid>0</vid>
+              <vlanid>0</vlanid>
+              <iptype>ipv4custom</iptype>
+              <ipv6type>ipv6dhcp</ipv6type>
+              <ip>192.168.1.203</ip>
+              <subnet>255.255.255.0</subnet>
+              <broadcast>192.168.1.255</broadcast>
+              <ipv6>fe80::a00:27ff:fe3a:3af0</ipv6>
+              <subnet6>ffff:ffff:ffff:ffff::</subnet6>
+              <prefixlength>64</prefixlength>
+              <ipv6_link>fe80::a00:27ff:fe3a:3af0</ipv6_link>
+              <prefixlength_link>64</prefixlength_link>
+              <mac>08:00:27:3A:3A:F0</mac>
+              <mtu>1500</mtu>
+              <router>192.168.1.1</router>
+              <router6>undefined</router6>
+              <state>undefined</state>
+              <dnscollection>
+                <DNS>
+                  <Priority>0</Priority>
+                  <IP_Address>75.75.75.75</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>1</Priority>
+                  <IP_Address>75.75.76.76</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>2</Priority>
+                  <IP_Address>192.168.1.1</IP_Address>
+                </DNS>
+              </dnscollection>
+              <routecollection/>
+              <ntpcollection>
+                <NTP>
+                  <IP_Address>192.168.1.1</IP_Address>
+                </NTP>
+                <NTP>
+                  <IP_Address>time-e.netgear.com</IP_Address>
+                </NTP>
+                <NTP>
+                  <IP_Address>time-a.netgear.com</IP_Address>
+                </NTP>
+              </ntpcollection>
+            </network_link>
+            <network_link resource-id="eth1">
+              <link>eth1</link>
+              <ifname>eth1</ifname>
+              <speed>1000</speed>
+              <path>ethernet_0800278c8e04_cable</path>
+              <duplex>full</duplex>
+              <vid>0</vid>
+              <vlanid>0</vlanid>
+              <iptype>ipv4dhcp</iptype>
+              <ipv6type>ipv6dhcp</ipv6type>
+              <ip>10.0.3.15</ip>
+              <subnet>255.255.255.0</subnet>
+              <broadcast>10.0.3.255</broadcast>
+              <ipv6>fe80::a00:27ff:fe8c:8e04</ipv6>
+              <subnet6>ffff:ffff:ffff:ffff::</subnet6>
+              <prefixlength>64</prefixlength>
+              <ipv6_link>fe80::a00:27ff:fe8c:8e04</ipv6_link>
+              <prefixlength_link>64</prefixlength_link>
+              <mac>08:00:27:8C:8E:04</mac>
+              <mtu>1500</mtu>
+              <router>undefined</router>
+              <router6>undefined</router6>
+              <state>undefined</state>
+              <dnscollection>
+                <DNS>
+                  <Priority>0</Priority>
+                  <IP_Address>75.75.75.75</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>1</Priority>
+                  <IP_Address>75.75.76.76</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>2</Priority>
+                  <IP_Address>192.168.1.1</IP_Address>
+                </DNS>
+              </dnscollection>
+              <routecollection/>
+              <ntpcollection>
+                <NTP>
+                  <IP_Address>10.0.3.2</IP_Address>
+                </NTP>
+                <NTP>
+                  <IP_Address>time-e.netgear.com</IP_Address>
+                </NTP>
+                <NTP>
+                  <IP_Address>time-a.netgear.com</IP_Address>
+                </NTP>
+              </ntpcollection>
+            </network_link>
+          </network_link_collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_5" status="success">
+      <xs:result>
+        <xs:get-s resource-id="HealthInfo" resource-type="Health_Collection">
+          <Health_Collection>
+            <Enclosure_Health resource-id="controller-0" resource-type="EnclosureHealth" port-label="Internal" nr-cpu="1" nr-fan="1" nr-psu="1" nr-volt="3">
+              <Fan resource-id="CPU" resource-type="Fan_Health" normal-min="712" normal-max="9999">
+                <device_name>Fan</device_name>
+                <device_id>CPU</device_id>
+                <label>CPU Fan</label>
+                <value>5355</value>
+                <status>ok</status>
+                <fan_speed>5355</fan_speed>
+                <fan_status>ok</fan_status>
+              </Fan>
+              <Fan resource-id="1" resource-type="Fan_Health" normal-min="712" normal-max="9999">
+                <device_name>Fan</device_name>
+                <device_id>1</device_id>
+                <label>Fan</label>
+                <value>5355</value>
+                <status>ok</status>
+                <fan_speed>5355</fan_speed>
+                <fan_status>ok</fan_status>
+              </Fan>
+              <Temperature resource-id="aux" resource-type="Temperature_Health" normal-min="1" normal-max="80">
+                <device_name>Temperature</device_name>
+                <device_id>aux</device_id>
+                <label>AUX Temperature</label>
+                <value>40</value>
+                <status>ok</status>
+                <temp_value>40</temp_value>
+                <min_value>1</min_value>
+                <max_value>80</max_value>
+              </Temperature>
+              <Temperature resource-id="cpu" resource-type="Temperature_Health" normal-min="1" normal-max="85">
+                <device_name>Temperature</device_name>
+                <device_id>cpu</device_id>
+                <label>CPU Temperature</label>
+                <value>43</value>
+                <status>ok</status>
+                <temp_value>43</temp_value>
+                <min_value>1</min_value>
+                <max_value>85</max_value>
+              </Temperature>
+              <Temperature resource-id="sys" resource-type="Temperature_Health" normal-min="1" normal-max="80">
+                <device_name>Temperature</device_name>
+                <device_id>sys</device_id>
+                <label>System Temperature</label>
+                <value>40</value>
+                <status>ok</status>
+                <temp_value>40</temp_value>
+                <min_value>1</min_value>
+                <max_value>80</max_value>
+              </Temperature>
+              <Disk resource-id="sdb" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>1</device_id>
+                <disk_model>VBOX HARDDISK</disk_model>
+                <disk_temperature>-1</disk_temperature>
+                <disk_capacity>8589934592</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+              <Disk resource-id="sdc" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>2</device_id>
+                <disk_model>VBOX HARDDISK</disk_model>
+                <disk_temperature>-1</disk_temperature>
+                <disk_capacity>8589934592</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+            </Enclosure_Health>
+            <Ups_Health resource-id="UpsHealths" resource-type="Ups_Health_Collection">
+              <UPS resource-id="UPS@192.168.1.201" resource-type="UPS_Health">
+                <device_name>UPS</device_name>
+                <ups_model>UPS CP825</ups_model>
+                <ups_status>ok</ups_status>
+                <ups_raw_status>OL</ups_raw_status>
+                <battery_runtime>57 min</battery_runtime>
+                <battery_charge>100 %</battery_charge>
+              </UPS>
+            </Ups_Health>
+          </Health_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_6" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Volumes" resource-type="Volume_Collection">
+          <Volume_Collection>
+            <Volume resource-id="data" resource-type="Volume" ejectable="false">
+              <Property_List>
+                <Volume_Name>data</Volume_Name>
+                <Volume_Mode>1</Volume_Mode>
+                <AltRoot/>
+                <DeDup/>
+                <AutoExpand>on</AutoExpand>
+                <AutoReplace>on</AutoReplace>
+                <CacheFile/>
+                <Delegation>on</Delegation>
+                <ListSnapshots>on</ListSnapshots>
+                <Version>0</Version>
+                <Allocated>3042864</Allocated>
+                <Capacity>3042864</Capacity>
+                <Free>2583452</Free>
+                <Available>2583452</Available>
+                <UsedBySnapShotKB>0</UsedBySnapShotKB>
+                <GUID>ac87953e-aec1-4e2e-abaa-ac7df0d14025</GUID>
+                <Health>REDUNDANT</Health>
+                <Checksum>on</Checksum>
+                <Expanded>0</Expanded>
+                <Encryption enabled="0"/>
+              </Property_List>
+              <vdev_list>
+                <RAID LEVEL="1" ID="0">
+                  <Disk resource-id="sdb"/>
+                  <Disk resource-id="sdc"/>
+                </RAID>
+              </vdev_list>
+            </Volume>
+          </Volume_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_7" status="success">
+      <xs:result>
+        <xs:get-s resource-id="DiskEnclosure" resource-type="DiskEnclosure_Collection">
+          <DiskEnclosure_Collection>
+            <DiskEnclosure resource-id="controller-0" resource-type="DiskEnclosure" PortName="Internal" name="ZPRO6">
+              <Disk_Collection rows="2" columns="3" IsSlotHorizontal="0">
+                <Disk resource-id="sdb" resource-type="Disk" Present="1" Model="VBOX HARDDISK" Serial="VB88829e13-ca81a7c9" FirmwareVersion="1.0" RPM="0" Sectors="16777216" Capacity="8589934592" Temperature="-1" ATAError="0" SlotName="1x1" HardwareInterface="SATA" PoolName="data" PoolType="raid" PoolState="NEW" PoolHostId="273a3af0" DiskState="ONLINE" Channel="1" IsSignedByNetgear="1" Formatable="0"/>
+                <Disk resource-id="sdc" resource-type="Disk" Present="1" Model="VBOX HARDDISK" Serial="VB41e4f107-41b38192" FirmwareVersion="1.0" RPM="0" Sectors="16777216" Capacity="8589934592" Temperature="-1" ATAError="0" SlotName="2x1" HardwareInterface="SATA" PoolName="data" PoolType="raid" PoolState="NEW" PoolHostId="273a3af0" DiskState="ONLINE" Channel="2" IsSignedByNetgear="1" Formatable="0"/>
+              </Disk_Collection>
+            </DiskEnclosure>
+          </DiskEnclosure_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_8" status="success">
+      <xs:result>
+        <xs:get-s resource-id="aggregate" resource-type="aggregate_collection">
+            <aggregate_collection>
+                <aggregate resource-id="bond0">
+                    <link>bond0</link>
+                    <jumbo>false</jumbo>
+                    <mode>lacp</mode>
+                    <policy>l2</policy>
+                    <primary/>
+                    <over>eth0 eth1</over>
+                    <vid>0</vid>
+                    <iptype>ipv4dhcp</iptype>
+                    <ipv6type>ipv6dhcp</ipv6type>
+                    <ip>10.10.1.105</ip>
+                    <ipv6>fdc0:f147:135d::69</ipv6>
+                    <prefixlength>48</prefixlength>
+                    <ipv6_link>fe80::861b:5eff:fe27:4aa</ipv6_link>
+                    <prefixlength_link>64</prefixlength_link>
+                    <mac>MAC</mac>
+                    <subnet>255.255.255.0</subnet>
+                    <mtu>1500</mtu>
+                    <router>10.10.1.254</router>
+                    <router6>fdc0:f147:135d::fd</router6>
+                    <state>online</state>
+                    <dnscollection>
+                        <DNS>
+                            <Priority>0</Priority>
+                            <IP_Address>10.10.1.254</IP_Address>
+                        </DNS>
+                        <DNS>
+                            <Priority>1</Priority>
+                            <IP_Address>10.10.1.13</IP_Address>
+                        </DNS>
+                    </dnscollection>
+                </aggregate>
+            </aggregate_collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

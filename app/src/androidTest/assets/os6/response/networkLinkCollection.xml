@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1371354739000" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_6283" status="success">
+      <xs:result>
+        <xs:get-s resource-id="network_link_list" resource-type="network_link_collection">
+          <network_link_collection>
+            <network_link>
+              <link>eth0</link>
+              <speed>1000</speed>
+              <path>ethernet_0800273a3af0_cable</path>
+              <duplex>full</duplex>
+              <vid>0</vid>
+              <iptype>ipv4dhcp</iptype>
+              <ipv6type>ipv6dhcp</ipv6type>
+              <ip>192.168.1.7</ip>
+              <ipv6>fe80::a00:27ff:fe3a:3af0</ipv6>
+              <prefixlenght>64</prefixlenght>
+              <mac>MAC</mac>
+              <subnet>255.255.255.0</subnet>
+              <mtu>1500</mtu>
+              <router>192.168.1.1</router>
+              <router6>unknown</router6>
+              <state>online</state>
+              <dnscollection>
+                <DNS>
+                  <Priority>0</Priority>
+                  <IP_Address>75.75.75.75</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>1</Priority>
+                  <IP_Address>75.75.76.76</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>2</Priority>
+                  <IP_Address>192.168.1.1</IP_Address>
+                </DNS>
+              </dnscollection>
+            </network_link>
+          </network_link_collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

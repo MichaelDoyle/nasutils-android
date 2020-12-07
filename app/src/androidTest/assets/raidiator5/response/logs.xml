@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1373076938000" session="55d39df555205c28" locale="en_US">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_861" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Logs" resource-type="Log_Collection">
+          <Log_Collection>
+            <Log>
+              <severity>1</severity>
+              <date>Tue Feb 18 06:04:24 PST 2014</date>
+              <message><![CDATA[Successfully installed ReadyNAS Photos II addon package (version: 1.0.6)]]></message>
+            </Log>
+            <Log>
+              <severity>0</severity>
+              <date>Tue Feb 18 06:05:27 PST 2014</date>
+              <message><![CDATA[System is up.]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 14:29:09 PST 2014</date>
+              <message><![CDATA[Alert test message has been sent.]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 17:31:28 EST 2014</date>
+              <message><![CDATA[Alert contact(s) saved.]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 17:31:28 EST 2014</date>
+              <message><![CDATA[Alert settings saved.]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 17:32:44 EST 2014</date>
+              <message><![CDATA[Alert contact(s) saved.]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 17:32:45 EST 2014</date>
+              <message><![CDATA[Alert settings saved.]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 18:07:27 EST 2014</date>
+              <message><![CDATA[Successfully enabled root SSH access.  The root password is now the same as your admin password.]]></message>
+            </Log>
+            <Log>
+              <severity>0</severity>
+              <date>Mon Feb 17 18:09:01 EST 2014</date>
+              <message><![CDATA[System is up.]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 21:57:30 EST 2014</date>
+              <message><![CDATA[Successfully upgraded ReadyNAS Photos II addon package (version: 1.0.6 --> 1.0.6)]]></message>
+            </Log>
+            <Log>
+              <severity>1</severity>
+              <date>Mon Feb 17 21:57:36 EST 2014</date>
+              <message><![CDATA[Your ReadyNAS device has been updated with a new firmware image. (5.3.10-T3)]]></message>
+            </Log>
+            <Log>
+              <severity>0</severity>
+              <date>Mon Feb 17 21:58:49 EST 2014</date>
+              <message><![CDATA[System is up.]]></message>
+            </Log>
+            <Log>
+              <severity>0</severity>
+              <date>Wed Feb 19 18:40:58 EST 2014</date>
+              <message><![CDATA[System is up.]]></message>
+            </Log>
+          </Log_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

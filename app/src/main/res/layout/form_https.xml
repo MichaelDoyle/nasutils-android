@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2013-2020 Michael J Doyle
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textview_port_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edittext_port_1"
+        android:text="@string/label_https_port1"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/edittext_port_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittext_ssl_key_host"
+        android:layout_toRightOf="@+id/textview_port_1"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/textview_port_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edittext_port_2"
+        android:layout_below="@+id/edittext_port_1"
+        android:text="@string/label_https_port2"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/edittext_port_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittext_ssl_key_host"
+        android:layout_below="@+id/edittext_port_1"
+        android:layout_toRightOf="@+id/textview_port_2"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/textview_ssl_key_host"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edittext_ssl_key_host"
+        android:layout_below="@+id/edittext_port_2"
+        android:text="@string/label_https_ssl_key_host"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/edittext_ssl_key_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_port_2"
+        android:layout_toRightOf="@+id/textview_ssl_key_host"
+        android:inputType="text"
+        android:maxLines="1" />
+
+</RelativeLayout>

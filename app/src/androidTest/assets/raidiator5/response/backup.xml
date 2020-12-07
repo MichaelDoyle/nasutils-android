@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9">
+    <xs:transaction ref-id="" type="0">
+        <xs:response ref-id="njl_id_2569" status="success">
+            <xs:result>
+                <xs:get-s resource-id="BackupJobs" resource-type="BackupJob_Collection">
+                    <BackupJob_Collection>
+                        <BackupJob resource-id="1" resource-type="BackupJob">
+                            <Job_Id>1</Job_Id>
+                            <Job_Name><![CDATA[Backup Job]]></Job_Name>
+                            <Status>Completed</Status>
+                            <Status_Date>Fri Sep 5 21:24</Status_Date>
+                            <Status_Result>OK</Status_Result>
+                            <BackupJob_Resource item="Source">
+                                <Type>share</Type>
+                                <Share_Name_Or_Protocol>media</Share_Name_Or_Protocol>
+                                <Path></Path>
+                                <Login></Login>
+                                <Password></Password>
+                                <Port>0</Port>
+                            </BackupJob_Resource>
+                            <BackupJob_Resource item="Destination">
+                                <Type>share</Type>
+                                <Share_Name_Or_Protocol>backup</Share_Name_Or_Protocol>
+                                <Path></Path>
+                                <Login></Login>
+                                <Password></Password>
+                                <Port>0</Port>
+                            </BackupJob_Resource>
+                            <Schedule>
+                                <Enabled>1</Enabled>
+                                <Frequency>24</Frequency>
+                                <Start>0</Start>
+                                <End>23</End>
+                                <DayOfWeek>sun,mon,tue,wed,thu,fri,sat</DayOfWeek>
+                            </Schedule>
+                            <Option>
+                                <Full_Backup_Frequency>FIRST_TIME</Full_Backup_Frequency>
+                                <Remove_Previous_Backup>0</Remove_Previous_Backup>
+                                <Chown_To_Share_Owner>0</Chown_To_Share_Owner>
+                                <Rsync_Option>0</Rsync_Option>
+                                <Rsync_Exclude></Rsync_Exclude>
+                                <Email_This_To_Alert_Email>0</Email_This_To_Alert_Email>
+                                <Misc_Option>0</Misc_Option>
+                                <Wol_Address></Wol_Address>
+                            </Option>
+                        </BackupJob>
+                        <BackupJob resource-id="2" resource-type="BackupJob">
+                            <Job_Id>2</Job_Id>
+                            <Job_Name><![CDATA[Backup 2]]></Job_Name>
+                            <Status>Ready</Status>
+                            <Status_Date></Status_Date>
+                            <Status_Result></Status_Result>
+                            <BackupJob_Resource item="Source">
+                                <Type>home</Type>
+                                <Share_Name_Or_Protocol>*</Share_Name_Or_Protocol>
+                                <Path></Path>
+                                <Login></Login>
+                                <Password></Password>
+                                <Port>0</Port>
+                            </BackupJob_Resource>
+                            <BackupJob_Resource item="Destination">
+                                <Type>share</Type>
+                                <Share_Name_Or_Protocol>backup</Share_Name_Or_Protocol>
+                                <Path></Path>
+                                <Login></Login>
+                                <Password></Password>
+                                <Port>0</Port>
+                            </BackupJob_Resource>
+                            <Schedule>
+                                <Enabled>1</Enabled>
+                                <Frequency>24</Frequency>
+                                <Start>0</Start>
+                                <End>23</End>
+                                <DayOfWeek>sun,mon,tue,wed,thu,fri,sat</DayOfWeek>
+                            </Schedule>
+                            <Option>
+                                <Full_Backup_Frequency>FIRST_TIME</Full_Backup_Frequency>
+                                <Remove_Previous_Backup>0</Remove_Previous_Backup>
+                                <Chown_To_Share_Owner>0</Chown_To_Share_Owner>
+                                <Rsync_Option>0</Rsync_Option>
+                                <Rsync_Exclude></Rsync_Exclude>
+                                <Email_This_To_Alert_Email>0</Email_This_To_Alert_Email>
+                                <Misc_Option>0</Misc_Option>
+                                <Wol_Address></Wol_Address>
+                            </Option>
+                        </BackupJob>
+                    </BackupJob_Collection>
+                </xs:get-s>
+            </xs:result>
+        </xs:response>
+    </xs:transaction>
+</xs:nml>
+

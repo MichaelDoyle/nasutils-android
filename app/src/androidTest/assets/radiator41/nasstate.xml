@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <content>
+        <dialog_mode>advanced</dialog_mode>
+        <security>user</security>
+        <squeezecenter_package>custom</squeezecenter_package>
+        <services>
+            <service>
+                <name>UPNPAV</name>
+                <status>on</status>
+                <version>not_defined</version>
+            </service>
+            <service>
+                <name>SLIMSERVER</name>
+                <status>off</status>
+                <version>7.3.2.0</version>
+            </service>
+            <service>
+                <name>DAAPD</name>
+                <status>on</status>
+                <version>1.0.0</version>
+            </service>
+        </services>
+        <rsync_over_ssh>off</rsync_over_ssh>
+        <vault>off</vault>
+        <browser_language>sv</browser_language>
+        <utf8_support>1</utf8_support>
+        <protocols>
+            <cifs>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </cifs>
+            <nfs>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </nfs>
+            <afp>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </afp>
+            <ftp>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </ftp>
+            <http>
+                <enable>disabled</enable>
+                <checked>0</checked>
+            </http>
+            <http>
+                <enable>disabled</enable>
+                <checked>0</checked>
+            </http>
+            <rsync>
+                <enable>enabled</enable>
+                <checked>0</checked>
+            </rsync>
+        </protocols>
+        <addons>
+            <addon>
+                <name>override_min_fan_rpm_addon</name>
+                <status>installed</status>
+            </addon>
+        </addons>
+        <nas_serial>SN123456789</nas_serial>
+        <hostname>NAS</hostname>
+        <gateway>192.168.1.1</gateway>
+        <dns_server_0>192.168.1.1</dns_server_0>
+        <network_interfaces>
+            <eth0>
+                <status>ONLINE</status>
+                <interface_type>dhcp</interface_type>
+                <mac_address>00:00:00:00:00:00</mac_address>
+                <ip_address>192.168.1.2</ip_address>
+            </eth0>
+        </network_interfaces>
+        <model_info>
+            <display_model>ReadyNAS Duo [X-RAID]</display_model>
+            <model>Duo</model>
+            <firmware>RAIDiator 4.1.10 1.00a043</firmware>
+            <display_firmware>RAIDiator 4.1.10 [1.00a043]</display_firmware>
+            <memory>1024 MB [2.5-3-3-7]</memory>
+            <architecture />
+        </model_info>
+        <product_mode>home</product_mode>
+        <internet_connection>yes</internet_connection>
+        <registration_status>yes</registration_status>
+        <vpd_error>no</vpd_error>
+        <config_error>no</config_error>
+        <status_bar_date>
+            <value>Tor Jun 27 06:53:28 2013</value>
+            <enable>enabled</enable>
+        </status_bar_date>
+        <log_alerts>
+            <message>NO_ALERTS</message>
+        </log_alerts>
+        <normal_alerts>
+            <message>NO_ALERTS</message>
+        </normal_alerts>
+        <fans>
+            <fan>
+                <unit>1</unit>
+                <img>/images/LED/OK.gif</img>
+                <alt>Fläkt 1: 1785 Varvtal</alt>
+                <mo>Fläkt 1: 1785 Varvtal</mo>
+            </fan>
+        </fans>
+        <upss>
+            <ups>
+                <unit>1</unit>
+                <img>/images/LED/not_present.gif</img>
+                <alt>UPS 1: Finns inte</alt>
+                <mo>UPS 1: Finns inte</mo>
+            </ups>
+        </upss>
+        <other_addon>
+            <name><![CDATA[ISTATD]]></name>
+            <name_lc><![CDATA[Istatd]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/ISTATD/start.sh]]></start>
+            <stop><![CDATA[ISTATD]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[1.5]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[PHP]]></name>
+            <name_lc><![CDATA[PHP]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/PHP/start.sh]]></start>
+            <stop><![CDATA[PHP]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[1.3]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[NASWGET]]></name>
+            <name_lc><![CDATA[Nas Wget]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/NASWGET/start.sh]]></start>
+            <stop><![CDATA[NASWGET]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[1.0]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[PYTHON2_6]]></name>
+            <name_lc><![CDATA[Python2.6]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/PYTHON2_6/start.sh]]></start>
+            <stop><![CDATA[PYTHON2_6]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[2.6.6-rnsparc-0.3.3]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[PYLOAD]]></name>
+            <name_lc><![CDATA[PyLoad]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/PYLOAD/start.sh]]></start>
+            <stop><![CDATA[PYLOAD]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[0.4.9-rnsparc-0.3.3]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[SABNZBD]]></name>
+            <name_lc><![CDATA[SABnzbd]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/SABNZBD/start.sh]]></start>
+            <stop><![CDATA[SABNZBD]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[0.6.15-rnsparc-0.7.0]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[READYNASREMOTE]]></name>
+            <name_lc><![CDATA[ReadyNAS Remote]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/READYNASREMOTE/start.sh]]></start>
+            <stop><![CDATA[READYNASREMOTE]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[1.0.9.78]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[TRANSMISSION]]></name>
+            <name_lc><![CDATA[Transmission]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/TRANSMISSION/start.sh]]></start>
+            <stop><![CDATA[TRANSMISSION]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[2.22]]></version>
+        </other_addon>
+        <queued_volumes />
+        <in_progress_volumes />
+        <available_volumes>
+            <add_volume>false</add_volume>
+            <volume>
+                <name>c</name>
+                <usage>930 GB (50%) av 1853 GB använt </usage>
+                <pct_used>50</pct_used>
+                <snapshot_message>Inget utrymme har allokerats för ögonblicksbilder
+                </snapshot_message>
+                <raid_level>X</raid_level>
+                <raid_status><![CDATA[Redundant]]></raid_status>
+                <raid_status_description><![CDATA[Redundant]]></raid_status_description>
+                <description><![CDATA[Online, X-RAID, 2 diskar, 50% av 1853 GB använt]]></description>
+                <mode>OK</mode>
+            </volume>
+        </available_volumes>
+        <standard_drives>
+            <standard_drive>hdc</standard_drive>
+            <standard_drive>hde</standard_drive>
+        </standard_drives>
+        <drives>
+            <drive>
+                <drive_name>hdc</drive_name>
+                <model>Seagate ST32000542AS</model>
+                <serial> 5XW1M6LV</serial>
+                <firmware> CC34</firmware>
+                <mode>OK</mode>
+                <capacity>1862</capacity>
+                <channel>1</channel>
+                <alt>Kanal 1: Seagate ST32000542AS 1862 GB </alt>
+                <free_size>0</free_size>
+            </drive>
+            <drive>
+                <drive_name>hde</drive_name>
+                <model>Seagate ST32000542AS</model>
+                <serial> 5XW10VEP</serial>
+                <firmware> CC34</firmware>
+                <mode>OK</mode>
+                <capacity>1862</capacity>
+                <channel>2</channel>
+                <alt>Kanal 2: Seagate ST32000542AS 1862 GB </alt>
+                <free_size>3901847696</free_size>
+            </drive>
+        </drives>
+        <ups_info>
+            <connected>0</connected>
+            <type>not_connected</type>
+        </ups_info>
+        <contact_info>
+            <email_address>email@gmail.com</email_address>
+        </contact_info>
+        <smtp_providers>
+            <provider>
+                <name>Gmail</name>
+                <smtp_server>smtp.gmail.com</smtp_server>
+                <domain>gmail.com</domain>
+                <domain_search>y</domain_search>
+                <smtp_port>587</smtp_port>
+                <secure_access>y</secure_access>
+                <help_url>http://mail.google.com/support/</help_url>
+            </provider>
+            <provider>
+                <name>AOL</name>
+                <smtp_server>smtp.aol.com</smtp_server>
+                <domain>aol.com</domain>
+                <domain_search>n</domain_search>
+                <smtp_port>587</smtp_port>
+                <secure_access>n</secure_access>
+                <help_url>http://help.aol.com/help/product/email/</help_url>
+            </provider>
+            <provider>
+                <name>SBC Yahoo DSL</name>
+                <smtp_server>smtp.sbcglobal.yahoo.com</smtp_server>
+                <domain>yahoo.com</domain>
+                <domain_search>n</domain_search>
+                <smtp_port>465</smtp_port>
+                <secure_access>y</secure_access>
+                <help_url>http://helpme.att.net/memberguide/dsl/communicate-1.html
+                </help_url>
+            </provider>
+        </smtp_providers>
+        <newer_image>NOT_AVAILABLE</newer_image>
+    </content>
+    <error>No Errors</error>
+    <warning>No Warnings</warning>
+</payload>

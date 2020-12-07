@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="nas_utils" session="e112d43ba36d250b" locale="en_US">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_5" status="success">
+      <xs:result>
+        <xs:get-s resource-id="HealthInfo" resource-type="Health_Collection">
+          <Health_Collection>
+            <Fan id="SYS" resource-id="SYS" resource-type="Fan">
+              <device_name>Fan</device_name>
+              <device_id>SYS</device_id>
+              <fan_status>ok</fan_status>
+              <fan_speed>744</fan_speed>
+            </Fan>
+            <Disk id="1" resource-id="1" resource-type="Disk">
+              <device_name>Disk</device_name>
+              <device_id>1</device_id>
+              <disk_model>WDC WD20EFRX-68EUZN0 1863 GB</disk_model>
+              <disk_temperature>29</disk_temperature>
+              <disk_status>ok</disk_status>
+            </Disk>
+            <Disk id="2" resource-id="2" resource-type="Disk">
+              <device_name>Disk</device_name>
+              <device_id>2</device_id>
+              <disk_model>ST2000DL003-9VT166 1863 GB</disk_model>
+              <disk_temperature>24</disk_temperature>
+              <disk_status>ok</disk_status>
+            </Disk>
+            <Temperature_Summary id="Summary" resource-id="Summary" resource-type="Disk">
+              <status>ok</status>
+              <value>26.0</value>
+            </Temperature_Summary>
+            <UPS id="1" resource-id="1" resource-type="UPS">
+              <device_name>UPS</device_name>
+              <ups_status>ok</ups_status>
+              <ups_model>CPS UPS CP825</ups_model>
+              <battery_charge>100%</battery_charge>
+              <battery_runtime>57 min</battery_runtime>
+            </UPS>
+          </Health_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

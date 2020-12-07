@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <content>
+        <teaming_interfaces>visible</teaming_interfaces>
+        <tav>
+            <row>
+                <name>
+                    <value>Ethernet 1</value>
+                    <enable>disabled</enable>
+                </name>
+                <teaminter>
+                    <value>1</value>
+                    <enable>disabled</enable>
+                </teaminter>
+                <macaddr>
+                    <value>00:1F:33:EA:D5:04</value>
+                    <enable>disabled</enable>
+                </macaddr>
+                <status_img>
+                    <value>/images/LED/OK.gif</value>
+                    <enable>disabled</enable>
+                </status_img>
+                <status_text>
+                    <value>Online / 100 Mbit / Full-Duplex</value>
+                    <enable>disabled</enable>
+                </status_text>
+                <showerror>
+                    <value>Show errors</value>
+                    <enable>disabled</enable>
+                </showerror>
+                <id>0</id>
+            </row>
+            <row>
+                <name>
+                    <value>Ethernet 2</value>
+                    <enable>enabled</enable>
+                </name>
+                <teaminter>
+                    <value>0</value>
+                    <enable>enabled</enable>
+                </teaminter>
+                <macaddr>
+                    <value>00:1F:33:EA:D5:05</value>
+                    <enable>enabled</enable>
+                </macaddr>
+                <status_img>
+                    <value>/images/LED/dead.gif</value>
+                    <enable>enabled</enable>
+                </status_img>
+                <status_text>
+                    <value>Offline</value>
+                    <enable>enabled</enable>
+                </status_text>
+                <showerror>
+                    <value>Show errors</value>
+                    <enable>enabled</enable>
+                </showerror>
+                <id>1</id>
+            </row>
+        </tav>
+        <teaming_mode>
+            <value>
+                <selectedValue>1</selectedValue>
+                <option>
+                    <value>0</value>
+                    <text>Round-Robin</text>
+                </option>
+                <option>
+                    <value>1</value>
+                    <text>Active Backup</text>
+                </option>
+                <option>
+                    <value>2</value>
+                    <text>XOR</text>
+                </option>
+                <option>
+                    <value>3</value>
+                    <text>Broadcast</text>
+                </option>
+                <option>
+                    <value>4</value>
+                    <text>IEEE 802.3ad LACP</text>
+                </option>
+                <option>
+                    <value>5</value>
+                    <text>Transmit Load Balancing</text>
+                </option>
+                <option>
+                    <value>6</value>
+                    <text>Adaptive Load Balancing</text>
+                </option>
+            </value>
+            <enable>disabled</enable>
+        </teaming_mode>
+        <teaming_mode_primary_device>
+            <value>
+                <selectedValue>0</selectedValue>
+                <option>
+                    <value>0</value>
+                    <text>Ethernet 1</text>
+                </option>
+                <option>
+                    <value>1</value>
+                    <text>Ethernet 2</text>
+                </option>
+            </value>
+            <enable>enabled</enable>
+        </teaming_mode_primary_device>
+        <ipv6_assignment>
+            <value>
+                <selectedValue>off</selectedValue>
+            </value>
+            <enable>enabled</enable>
+        </ipv6_assignment>
+        <wo_text_status3>
+            <value>Online / 100 Mbit / Full-Duplex</value>
+            <enable>disabled</enable>
+        </wo_text_status3>
+        <enable_jumbo_frames>
+            <value>0</value>
+            <enable>enabled</enable>
+        </enable_jumbo_frames>
+        <teaming>
+            <value />
+            <enable />
+        </teaming>
+        <ipaddr_changed>
+            <value>0</value>
+            <enable>enabled</enable>
+        </ipaddr_changed>
+        <tav_dummy_img_zero>
+            <value />
+            <enable />
+        </tav_dummy_img_zero>
+        <tav_showerror>
+            <value />
+            <enable />
+        </tav_showerror>
+        <tav_dummy_img_one>
+            <value />
+            <enable />
+        </tav_dummy_img_one>
+        <wo_text_macaddress>
+            <value>00:1F:33:EA:D5:04</value>
+            <enable>disabled</enable>
+        </wo_text_macaddress>
+        <speed_duplex>
+            <value>
+                <selectedValue>AUTO_NEGOTIATION</selectedValue>
+            </value>
+            <enable>enabled</enable>
+        </speed_duplex>
+        <vlan_orig>
+            <value>0</value>
+            <enable>enabled</enable>
+        </vlan_orig>
+        <vlan_id_orig>
+            <value>0</value>
+            <enable>enabled</enable>
+        </vlan_id_orig>
+        <BUTTON_SHOW_ERRORS>
+            <value />
+            <enable />
+        </BUTTON_SHOW_ERRORS>
+        <tav_teaminter>
+            <value />
+            <enable />
+        </tav_teaminter>
+        <ipv6_prefixlen>
+            <value />
+            <enable />
+        </ipv6_prefixlen>
+        <address>
+            <value>192.168.1.201</value>
+            <enable>enabled</enable>
+        </address>
+        <enable_jumbo_frames_orig>
+            <value>0</value>
+            <enable>enabled</enable>
+        </enable_jumbo_frames_orig>
+        <ipv6_address>
+            <value />
+            <enable />
+        </ipv6_address>
+        <mtu>
+            <value>1500</value>
+            <enable>enabled</enable>
+        </mtu>
+        <PAGE>
+            <value />
+            <enable />
+        </PAGE>
+        <ipv6addr_changed>
+            <value />
+            <enable />
+        </ipv6addr_changed>
+        <checkbox_teammode_layer3plus4>
+            <value />
+            <enable />
+        </checkbox_teammode_layer3plus4>
+        <ipv6_defaultgateway>
+            <value />
+            <enable />
+        </ipv6_defaultgateway>
+        <teaming_mode>
+            <value />
+            <enable />
+        </teaming_mode>
+        <dev>
+            <value>eth0</value>
+            <enable>enabled</enable>
+        </dev>
+        <OPERATION>
+            <value />
+            <enable />
+        </OPERATION>
+        <teaming_changed>
+            <value />
+            <enable />
+        </teaming_changed>
+        <state_image>
+            <value>/images/LED/OK.gif</value>
+            <enable>enabled</enable>
+        </state_image>
+        <tav_dummy_img_two>
+            <value />
+            <enable />
+        </tav_dummy_img_two>
+        <INNER_TAB>
+            <value />
+            <enable />
+        </INNER_TAB>
+        <gateway>
+            <value>192.168.1.1</value>
+            <enable>enabled</enable>
+        </gateway>
+        <vlan_changed>
+            <value>0</value>
+            <enable>enabled</enable>
+        </vlan_changed>
+        <OUTER_TAB>
+            <value />
+            <enable />
+        </OUTER_TAB>
+        <BUTTON_RENEW_NOW>
+            <value>Renew now</value>
+            <enable>disabled</enable>
+        </BUTTON_RENEW_NOW>
+        <ms>
+            <value />
+            <enable />
+        </ms>
+        <mtu_orig>
+            <value>1500</value>
+            <enable>enabled</enable>
+        </mtu_orig>
+        <netmask>
+            <value>255.255.255.0</value>
+            <enable>enabled</enable>
+        </netmask>
+        <command>
+            <value />
+            <enable />
+        </command>
+        <checkbox_teammode_layer2plus3>
+            <value />
+            <enable />
+        </checkbox_teammode_layer2plus3>
+        <vlan>
+            <value>0</value>
+            <enable>enabled</enable>
+        </vlan>
+        <vlan_id>
+            <value>0</value>
+            <enable>disabled</enable>
+        </vlan_id>
+        <tav_status_img>
+            <value />
+            <enable />
+        </tav_status_img>
+        <checkbox_teammode_layer2>
+            <value />
+            <enable />
+        </checkbox_teammode_layer2>
+        <ip_assignment>
+            <value>
+                <selectedValue>static</selectedValue>
+            </value>
+            <enable>enabled</enable>
+        </ip_assignment>
+        <teaming_mode_primary_device>
+            <value />
+            <enable />
+        </teaming_mode_primary_device>
+        <ipv6_assignment>
+            <value />
+            <enable />
+        </ipv6_assignment>
+    </content>
+    <error>No Errors</error>
+    <warning>No Warnings</warning>
+</payload>

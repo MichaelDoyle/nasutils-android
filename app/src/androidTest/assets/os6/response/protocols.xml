@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="_1_1383879661000" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_942" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Protocols" resource-type="Protocol_Collection">
+          <Protocol_Collection>
+            <Protocol id="cifs" resource-id="cifs" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options user-home-directory="1" user-home-directory-recycle="1" user-home-directory-recycle-max-days="0" user-home-directory-recycle-max-size="25000"/>
+            </Protocol>
+            <Protocol id="afp" resource-id="afp" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON"/>
+            <Protocol id="nfs" resource-id="nfs" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options threads="16" user-home-directory="0" nfsv4-enable="1" nfsv4-domain="doyle"/>
+            </Protocol>
+            <Protocol id="ftp" resource-id="ftp" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options 
+                  port="21" 
+                  auth-mode="user" 
+                  passive-range-min="32768" 
+                  passive-range-max="65535" 
+                  enable-masquerade="0" 
+                  masquerade-address="virtual-nas" 
+                  allow-upload-resume="0" 
+                  user-home-directory="0" 
+                  ftps="1" 
+                  force-ftps="1" 
+                  server-transfer-log="1" 
+                  max-upload-rate="500" 
+                  max-download-rate="500"/>
+            </Protocol>
+            <Protocol id="daap" resource-id="daap" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options sharename="My Music on virtual-nas" password="" directory="/data/Music"/>
+            </Protocol>
+            <Protocol id="snmp" resource-id="snmp" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options allow-host="" community="public" trap-destination="" mib-url="/READYNASOS-MIB.txt"/>
+            </Protocol>
+            <Protocol id="ssh" resource-id="ssh" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options port="22"/>
+            </Protocol>
+            <Protocol id="replicate" resource-id="replicate" resource-type="Protocol" raw-enabled="0" enabled="0" status="OFF">
+              <Options/>
+              <Authentication>
+                <Owner><![CDATA[]]></Owner>
+                <Password><![CDATA[]]></Password>
+              </Authentication>
+            </Protocol>
+            <Protocol id="smartnetwork" resource-id="smartnetwork" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options hostname="genie.netgear.com"/>
+            </Protocol>
+            <Protocol id="upnpd" resource-id="upnpd" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON"/>
+            <Protocol id="rsync" resource-id="rsync" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON"/>
+            <Protocol id="dlna" resource-id="dlna" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options auto-scan="1" enable-tivo-server="0" enable-tivo-archiver="1"/>
+            </Protocol>
+            <Protocol id="http" resource-id="http" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options login-enabled="0" share-name=""/>
+              <Share_Collection/>
+            </Protocol>
+            <Protocol id="https" resource-id="https" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON">
+              <Options port="0" ssl-key-host="10.20.1.23"/>
+            </Protocol>
+            <Protocol id="anti-virus" resource-id="anti-virus" resource-type="Protocol" raw-enabled="1" enabled="1" status="ON"/>
+            <Protocol id="readycloud" resource-id="readycloud" resource-type="Protocol" raw-enabled="0" enabled="0" status="OFF"/>
+          </Protocol_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2013-2020 Michael J Doyle
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.md.nasutils"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Google TV -->
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+
+    <application
+        android:name=".NasUtilsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@style/Theme.NasUtils">
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Used for Google Play Store Campaign Measurement-->
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.ReadyNasIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name=".ui.activity.NasDeviceListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activity.NasDeviceActivity"
+            android:label="Nas Device"
+            android:parentActivityName=".ui.activity.NasDeviceListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.NasDeviceListActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.activity.MenuActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".ui.activity.NasDeviceListActivity"
+            android:launchMode="singleTop" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.NasDeviceListActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        
+        <activity
+            android:name=".ui.activity.LogsActivity"
+            android:label="@string/title_activity_logs"
+            android:parentActivityName=".ui.activity.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MenuActivity" />
+        </activity>
+        
+        <activity
+            android:name=".ui.activity.StatusActivity"
+            android:label="@string/title_activity_status"
+            android:parentActivityName=".ui.activity.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MenuActivity" />
+        </activity>
+        
+        <activity
+            android:name=".ui.activity.ServicesActivity"
+            android:label="@string/title_activity_services"
+            android:parentActivityName=".ui.activity.MenuActivity"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MenuActivity" />
+        </activity>
+        
+        <activity
+            android:name=".ui.activity.TelemetryActivity"
+            android:label="@string/title_activity_telemetry"
+            android:parentActivityName=".ui.activity.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MenuActivity" />
+        </activity>
+        
+        <activity
+            android:name=".ui.activity.PowerActivity"
+            android:label="@string/title_activity_power"
+            android:parentActivityName=".ui.activity.MenuActivity" 
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MenuActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.activity.BackupsActivity"
+            android:label="@string/title_activity_backups"
+            android:parentActivityName=".ui.activity.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MenuActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.activity.AddOnsActivity"
+            android:label="@string/title_activity_addons"
+            android:parentActivityName=".ui.activity.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MenuActivity" />
+        </activity>
+        
+        <activity
+            android:name=".ui.activity.AboutActivity"
+            android:label="@string/title_activity_about">
+        </activity>
+        
+        <provider
+            android:name=".db.DatabaseContentProvider"
+            android:authorities="com.md.nasutils.provider"
+            android:exported="false" >
+        </provider>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="true" />
+    </application>
+</manifest>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="nas_utils" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_2" status="success">
+      <xs:result>
+        <xs:get-s resource-id="SystemInfo" resource-type="SystemInfo">
+          <SystemInfo>
+            <Model>ReadyNAS 516</Model>
+            <Serial>SERIAL</Serial>
+            <Firmware_Name>ReadyNASOS</Firmware_Name>
+            <Firmware_Version>6.1.2</Firmware_Version>
+            <Memory>4096</Memory>
+            <CPU_Number>4</CPU_Number>
+            <CPU_Frequency>3300.000000</CPU_Frequency>
+            <MAC_Address>MAC</MAC_Address>
+            <Language>en-us</Language>
+            <Raid_Level>X-RAID2</Raid_Level>
+            <HDD_Vendor/>
+            <HDD_Model/>
+            <HDD_Serial/>
+            <HDD_Firmware/>
+            <Registered>1</Registered>
+            <Raid/>
+            <Anti-Virus-Def-Version>201310030516</Anti-Virus-Def-Version>
+            <Anti-Virus-Last-Updated>1380787071</Anti-Virus-Last-Updated>
+            <Read-Only-Data-Volumes>0</Read-Only-Data-Volumes>
+          </SystemInfo>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_3" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Network" resource-type="Network">
+          <Network>
+            <General_Settings>
+              <Hostname>RN516</Hostname>
+            </General_Settings>
+          </Network>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_4" status="success">
+      <xs:result>
+        <xs:get-s resource-id="network_link_list" resource-type="network_link_collection">
+          <network_link_collection>
+            <network_link>
+              <link>eth0</link>
+              <speed>1000</speed>
+              <path>ethernet_841b5e2704aa_cable</path>
+              <duplex>full</duplex>
+              <vid>0</vid>
+              <iptype>ipv4dhcp</iptype>
+              <ipv6type>ipv6dhcp</ipv6type>
+              <ip>10.10.1.105</ip>
+              <ipv6>::1</ipv6>
+              <prefixlength>48</prefixlength>
+              <ipv6_link>fe80::861b:5eff:fe27:4aa</ipv6_link>
+              <prefixlength_link>64</prefixlength_link>
+              <mac>MAC</mac>
+              <subnet>255.255.255.0</subnet>
+              <mtu>9000</mtu>
+              <router>10.10.1.254</router>
+              <router6>::</router6>
+              <state>online</state>
+              <dnscollection>
+                <DNS>
+                  <Priority>0</Priority>
+                  <IP_Address>10.10.1.254</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>1</Priority>
+                  <IP_Address>10.10.1.13</IP_Address>
+                </DNS>
+              </dnscollection>
+            </network_link>
+            <network_link>
+              <path/>
+              <speed>0</speed>
+              <duplex>full</duplex>
+              <vid>0</vid>
+              <iptype>ipv4dhcp</iptype>
+              <ipv6type>ipv6dhcp</ipv6type>
+              <ip>0.0.0.0</ip>
+              <ipv6>::1</ipv6>
+              <prefixlength>64</prefixlength>
+              <ipv6_link>::1</ipv6_link>
+              <prefixlength_link>64</prefixlength_link>
+              <mac>MAC</mac>
+              <subnet>0.0.0.0</subnet>
+              <mtu>0</mtu>
+              <router>10.10.1.254</router>
+              <router6>::</router6>
+              <state>down</state>
+              <dnscollection/>
+              <link>eth1</link>
+            </network_link>
+          </network_link_collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_5" status="success">
+      <xs:result>
+        <xs:get-s resource-id="HealthInfo" resource-type="Health_Collection">
+          <Health_Collection>
+            <Enclosure_Health resource-id="controller-0" resource-type="EnclosureHealth" port-label="Internal" nr-cpu="1" nr-fan="1" nr-psu="1" nr-volt="8">
+              <Fan resource-id="1" resource-type="Fan_Health" normal-min="400" normal-max="9999">
+                <device_name>Fan</device_name>
+                <device_id>1</device_id>
+                <label>Fan</label>
+                <value>860</value>
+                <status>ok</status>
+                <fan_speed>860</fan_speed>
+                <fan_status>ok</fan_status>
+              </Fan>
+              <Temperature resource-id="cpu" resource-type="Temperature_Health" normal-min="1" normal-max="85">
+                <device_name>Temperature</device_name>
+                <device_id>cpu</device_id>
+                <label>CPU Temperature</label>
+                <value>42</value>
+                <status>ok</status>
+                <temp_value>42</temp_value>
+                <min_value>1</min_value>
+                <max_value>85</max_value>
+              </Temperature>
+              <Temperature resource-id="sys" resource-type="Temperature_Health" normal-min="1" normal-max="80">
+                <device_name>Temperature</device_name>
+                <device_id>sys</device_id>
+                <label>System Temperature</label>
+                <value>29</value>
+                <status>ok</status>
+                <temp_value>29</temp_value>
+                <min_value>1</min_value>
+                <max_value>80</max_value>
+              </Temperature>
+              <Voltage resource-id="7" resource-type="Voltage_Health" normal-min="3135" normal-max="3465">
+                <device_name>Voltage</device_name>
+                <device_id>7</device_id>
+                <label>3VSB</label>
+                <value>3280</value>
+                <status>ok</status>
+              </Voltage>
+              <Voltage resource-id="2" resource-type="Voltage_Health" normal-min="3135" normal-max="3465">
+                <device_name>Voltage</device_name>
+                <device_id>2</device_id>
+                <label>AVCC</label>
+                <value>3392</value>
+                <status>ok</status>
+              </Voltage>
+              <Voltage resource-id="5" resource-type="Voltage_Health" normal-min="0" normal-max="0">
+                <device_name>Voltage</device_name>
+                <device_id>5</device_id>
+                <label>ignore</label>
+                <value>1512</value>
+                <status>warning</status>
+              </Voltage>
+              <Voltage resource-id="1" resource-type="Voltage_Health" normal-min="800" normal-max="1200">
+                <device_name>Voltage</device_name>
+                <device_id>1</device_id>
+                <label>in1</label>
+                <value>12096</value>
+                <status>warning</status>
+              </Voltage>
+              <Voltage resource-id="4" resource-type="Voltage_Health" normal-min="800" normal-max="1200">
+                <device_name>Voltage</device_name>
+                <device_id>4</device_id>
+                <label>in4</label>
+                <value>5079</value>
+                <status>warning</status>
+              </Voltage>
+              <Voltage resource-id="3" resource-type="Voltage_Health" normal-min="3135" normal-max="3465">
+                <device_name>Voltage</device_name>
+                <device_id>3</device_id>
+                <label>V3_3</label>
+                <value>3376</value>
+                <status>ok</status>
+              </Voltage>
+              <Voltage resource-id="8" resource-type="Voltage_Health" normal-min="3135" normal-max="3465">
+                <device_name>Voltage</device_name>
+                <device_id>8</device_id>
+                <label>VBAT</label>
+                <value>3216</value>
+                <status>ok</status>
+              </Voltage>
+              <Voltage resource-id="0" resource-type="Voltage_Health" normal-min="0" normal-max="99999">
+                <device_name>Voltage</device_name>
+                <device_id>0</device_id>
+                <label>Vcore</label>
+                <value>968</value>
+                <status>ok</status>
+              </Voltage>
+              <Disk resource-id="sda" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>1</device_id>
+                <disk_model>WDC WD10EFRX-68JCSN0</disk_model>
+                <disk_temperature>35</disk_temperature>
+                <disk_capacity>1000204886016</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+              <Disk resource-id="sdb" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>2</device_id>
+                <disk_model>WDC WD10EFRX-68JCSN0</disk_model>
+                <disk_temperature>37</disk_temperature>
+                <disk_capacity>1000204886016</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+              <Disk resource-id="sdc" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>3</device_id>
+                <disk_model>WDC WD10EFRX-68JCSN0</disk_model>
+                <disk_temperature>37</disk_temperature>
+                <disk_capacity>1000204886016</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+              <Disk resource-id="sdd" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>4</device_id>
+                <disk_model>WDC WD10EFRX-68JCSN0</disk_model>
+                <disk_temperature>36</disk_temperature>
+                <disk_capacity>1000204886016</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+            </Enclosure_Health>
+            <Enclosure_Health resource-id="controller-1" resource-type="EnclosureHealth" port-label="eSATA Port 1" nr-cpu="0" nr-fan="1" nr-psu="1" nr-volt="0">
+              <Disk resource-id="sdf" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>1</device_id>
+                <disk_model>ST3500320AS</disk_model>
+                <disk_temperature>40</disk_temperature>
+                <disk_capacity>500107862016</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+              <Disk resource-id="sdg" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>2</device_id>
+                <disk_model>ST3500320AS</disk_model>
+                <disk_temperature>40</disk_temperature>
+                <disk_capacity>500107862016</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+            </Enclosure_Health>
+          </Health_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_6" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Volumes" resource-type="Volume_Collection">
+          <Volume_Collection>
+            <Volume resource-id="data" resource-type="Volume" ejectable="false">
+              <Property_List>
+                <Volume_Name>data</Volume_Name>
+                <Volume_Mode>1</Volume_Mode>
+                <AltRoot/>
+                <DeDup/>
+                <AutoExpand>on</AutoExpand>
+                <AutoReplace>on</AutoReplace>
+                <CacheFile/>
+                <Delegation>on</Delegation>
+                <ListSnapshots>on</ListSnapshots>
+                <Version>0</Version>
+                <Allocated>2798277176</Allocated>
+                <Capacity>2798277176</Capacity>
+                <Free>2794213004</Free>
+                <Available>2794213004</Available>
+                <GUID>ff1a990f-817c-483e-b9d6-62e533fe0a4f</GUID>
+                <Health>REDUNDANT</Health>
+                <Checksum>on</Checksum>
+                <Expanded>0</Expanded>
+                <Encryption enabled="0"/>
+              </Property_List>
+              <vdev_list>
+                <RAID LEVEL="5" ID="0">
+                  <Disk resource-id="sda"/>
+                  <Disk resource-id="sdb"/>
+                  <Disk resource-id="sdc"/>
+                  <Disk resource-id="sdd"/>
+                </RAID>
+              </vdev_list>
+            </Volume>
+            <Volume resource-id="eda1" resource-type="Volume" ejectable="false">
+              <Property_List>
+                <Volume_Name>eda1</Volume_Name>
+                <Volume_Mode>1</Volume_Mode>
+                <AltRoot/>
+                <DeDup/>
+                <AutoExpand>on</AutoExpand>
+                <AutoReplace>on</AutoReplace>
+                <CacheFile/>
+                <Delegation>on</Delegation>
+                <ListSnapshots>on</ListSnapshots>
+                <Version>0</Version>
+                <Allocated>481461144</Allocated>
+                <Capacity>481461144</Capacity>
+                <Free>462776068</Free>
+                <Available>462776068</Available>
+                <GUID>233a555d-9964-45f3-baac-ee285191fbcb</GUID>
+                <Health>REDUNDANT</Health>
+                <Checksum>on</Checksum>
+                <Expanded>0</Expanded>
+                <Encryption enabled="0"/>
+              </Property_List>
+              <vdev_list>
+                <RAID LEVEL="1" ID="0">
+                  <Disk resource-id="sdf"/>
+                  <Disk resource-id="sdg"/>
+                </RAID>
+              </vdev_list>
+            </Volume>
+          </Volume_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_7" status="success">
+      <xs:result>
+        <xs:get-s resource-id="DiskEnclosure" resource-type="DiskEnclosure_Collection">
+          <DiskEnclosure_Collection>
+            <DiskEnclosure resource-id="controller-0" resource-type="DiskEnclosure" PortName="Internal" name="RN516">
+              <Disk_Collection rows="6" columns="1" IsSlotHorizontal="1">
+                <Disk resource-id="sda" resource-type="Disk" Present="1" Model="WDC WD10EFRX-68JCSN0" Serial="WD-SN" FirmwareVersion="01.01A01" RPM="0" Sectors="1953525168" Capacity="1000204886016" Temperature="35" ATAError="0" SlotName="1x1" HardwareInterface="SATA" PoolName="data" PoolType="raid" PoolState="NEW" PoolHostId="5e2704aa" DiskState="ONLINE" Channel="1" IsSignedByNetgear="1"/>
+                <Disk resource-id="sdb" resource-type="Disk" Present="1" Model="WDC WD10EFRX-68JCSN0" Serial="WD-SN" FirmwareVersion="01.01A01" RPM="0" Sectors="1953525168" Capacity="1000204886016" Temperature="37" ATAError="0" SlotName="1x2" HardwareInterface="SATA" PoolName="data" PoolType="raid" PoolState="NEW" PoolHostId="5e2704aa" DiskState="ONLINE" Channel="2" IsSignedByNetgear="1"/>
+                <Disk resource-id="sdc" resource-type="Disk" Present="1" Model="WDC WD10EFRX-68JCSN0" Serial="WD-SN" FirmwareVersion="01.01A01" RPM="0" Sectors="1953525168" Capacity="1000204886016" Temperature="37" ATAError="0" SlotName="1x3" HardwareInterface="SATA" PoolName="data" PoolType="raid" PoolState="NEW" PoolHostId="5e2704aa" DiskState="ONLINE" Channel="3" IsSignedByNetgear="1"/>
+                <Disk resource-id="sdd" resource-type="Disk" Present="1" Model="WDC WD10EFRX-68JCSN0" Serial="WD-SN" FirmwareVersion="01.01A01" RPM="0" Sectors="1953525168" Capacity="1000204886016" Temperature="36" ATAError="0" SlotName="1x4" HardwareInterface="SATA" PoolName="data" PoolType="raid" PoolState="NEW" PoolHostId="5e2704aa" DiskState="ONLINE" Channel="4" IsSignedByNetgear="1"/>
+              </Disk_Collection>
+            </DiskEnclosure>
+            <DiskEnclosure resource-id="controller-1" resource-type="DiskEnclosure" PortName="eSATA Port 1" name="EDA500XXX" DeadSlots="1x6">
+              <Disk_Collection rows="6" columns="1" IsSlotHorizontal="1">
+                <Disk resource-id="sdf" resource-type="Disk" Present="1" Model="ST3500320AS" Serial="SN" FirmwareVersion="SD15" RPM="7200" Sectors="976773168" Capacity="500107862016" Temperature="40" ATAError="0" SlotName="1x1" HardwareInterface="SATA" PoolName="eda1" PoolType="raid" PoolState="NEW" PoolHostId="5e2704aa" DiskState="ONLINE" Channel="1" IsSignedByNetgear="1"/>
+                <Disk resource-id="sdg" resource-type="Disk" Present="1" Model="ST3500320AS" Serial="SN" FirmwareVersion="SD15" RPM="7200" Sectors="976773168" Capacity="500107862016" Temperature="40" ATAError="0" SlotName="1x2" HardwareInterface="SATA" PoolName="eda1" PoolType="raid" PoolState="NEW" PoolHostId="5e2704aa" DiskState="ONLINE" Channel="2" IsSignedByNetgear="1"/>
+              </Disk_Collection>
+            </DiskEnclosure>
+          </DiskEnclosure_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+    <xs:response ref-id="njl_id_8" status="success">
+      <xs:result>
+        <xs:get-s resource-id="aggregate" resource-type="aggregate_collection">
+          <aggregate_collection>
+            <aggregate resource-id="bond0">
+              <link>bond0</link>
+              <jumbo>false</jumbo>
+              <mode>lacp</mode>
+              <policy>l2</policy>
+              <primary/>
+              <over>eth0 eth1</over>
+              <vid>0</vid>
+              <iptype>ipv4dhcp</iptype>
+              <ipv6type>ipv6dhcp</ipv6type>
+              <ip>10.10.1.105</ip>
+              <ipv6>fdc0:f147:135d::69</ipv6>
+              <prefixlength>48</prefixlength>
+              <ipv6_link>fe80::861b:5eff:fe27:4aa</ipv6_link>
+              <prefixlength_link>64</prefixlength_link>
+              <mac>MAC</mac>
+              <subnet>255.255.255.0</subnet>
+              <mtu>1500</mtu>
+              <router>10.10.1.254</router>
+              <router6>fdc0:f147:135d::fd</router6>
+              <state>online</state>
+              <dnscollection>
+                <DNS>
+                  <Priority>0</Priority>
+                  <IP_Address>10.10.1.254</IP_Address>
+                </DNS>
+                <DNS>
+                  <Priority>1</Priority>
+                  <IP_Address>10.10.1.13</IP_Address>
+                </DNS>
+              </dnscollection>
+            </aggregate>
+          </aggregate_collection>
+          </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

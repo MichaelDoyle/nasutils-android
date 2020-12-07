@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="nas_utils" session="05eb5aa48eea8b23" locale="en_US">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_6" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Volumes" resource-type="Volume_Collection">
+          <Volume_Collection>
+            <Property_List>
+              <Type>X-RAID2</Type>
+              <Expandable>False</Expandable>
+              <Permisible_Disks>2</Permisible_Disks>
+              <Installed_Disks>2</Installed_Disks>
+            </Property_List>
+            <Volume resource-type="Volume" resource-id="1">
+              <Name>C</Name>
+              <RaidLevel>1</RaidLevel>
+              <Capacity>1948792752</Capacity>
+              <State Percentage-Completed="15.0" Finish-Seconds="13740" Speed="120445">Recovery</State>
+              <Disk_collection>
+                <Disk id="1">
+                  <Slot>1</Slot>
+                  <Type>Active</Type>
+                  <Usage></Usage>
+                </Disk>
+                <Disk id="2">
+                  <Type>Active</Type>
+                  <Usage></Usage>
+                </Disk>
+              </Disk_collection>
+            </Volume>
+          </Volume_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

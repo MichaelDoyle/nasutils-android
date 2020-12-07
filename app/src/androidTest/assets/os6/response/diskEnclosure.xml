@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" dst="dpv_1373591034000" locale="en-us" src="nas" >
+    <xs:transaction ref-id="" type="0" >
+        <xs:response ref-id="njl_id_911" status="success" >
+            <xs:result>
+                <xs:get-s resource-id="DiskEnclosure" resource-type="DiskEnclosure_Collection" >
+                    <DiskEnclosure_Collection>
+                        <DiskEnclosure name="ZPRO6" PortName="Internal" resource-id="controller-0" resource-type="DiskEnclosure" >
+                            <Disk_Collection IsSlotHorizontal="0" columns="3" rows="2" >
+                                <Disk
+                                    ATAError="0"
+                                    Capacity="8589934592"
+                                    Channel="1"
+                                    DiskState="ONLINE"
+                                    FirmwareVersion="1.0"
+                                    HardwareInterface="SATA"
+                                    IsSignedByNetgear="1"
+                                    Model="VBOX HARDDISK"
+                                    PoolHostId="273a3af0"
+                                    PoolName="data"
+                                    PoolState="NEW"
+                                    PoolType="raid"
+                                    Present="1"
+                                    RPM="0"
+                                    Sectors="16777216"
+                                    Serial="VB88829e13-ca81a7c9"
+                                    SlotName="1x1"
+                                    Temperature="-1"
+                                    resource-id="sdb"
+                                    resource-type="Disk" />
+                                <Disk
+                                    ATAError="0"
+                                    Capacity="8589934592"
+                                    Channel="2"
+                                    DiskState="ONLINE"
+                                    FirmwareVersion="1.0"
+                                    HardwareInterface="SATA"
+                                    IsSignedByNetgear="1"
+                                    Model="VBOX HARDDISK"
+                                    PoolHostId="273a3af0"
+                                    PoolName="data"
+                                    PoolState="NEW"
+                                    PoolType="raid"
+                                    Present="1"
+                                    RPM="0"
+                                    Sectors="16777216"
+                                    Serial="VB41e4f107-41b38192"
+                                    SlotName="2x1"
+                                    Temperature="-1"
+                                    resource-id="sdc"
+                                    resource-type="Disk" />
+                            </Disk_Collection>
+                        </DiskEnclosure>
+                    </DiskEnclosure_Collection>
+                </xs:get-s>
+            </xs:result>
+        </xs:response>
+    </xs:transaction>
+</xs:nml>

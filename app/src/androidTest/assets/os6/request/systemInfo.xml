@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9"
+    dst="nas"
+    src="dpv_1373076938000"
+    xmlns="urn:netgear:nas:readynasd" >
+    <xs:transaction id="njl_id_3183" >
+        <xs:get
+            id="njl_id_3182"
+            resource-id="SystemInfo"
+            resource-type="SystemInfo" >
+        </xs:get>
+    </xs:transaction>
+</xs:nml>

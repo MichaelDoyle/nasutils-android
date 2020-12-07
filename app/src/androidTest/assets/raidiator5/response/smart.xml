@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas_utils" dst="nas" session="ab057777e8916e13" locale="en_US">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_1" status="success">
+      <xs:result>
+        <xs:get-s resource-id="1" resource-type="SMARTInfo">
+          <SMARTInfo>
+            <Model>WDC WD20EFRX-68EUZN0</Model>
+            <Serial>WD-SN</Serial>
+            <Firmware_Version>80.00A80</Firmware_Version>
+            <Attribute>
+              <Raw_Read_Error_Rate>0</Raw_Read_Error_Rate>
+              <Spin_Up_Time>4366</Spin_Up_Time>
+              <Start_Stop_Count>7</Start_Stop_Count>
+            </Attribute>
+          </SMARTInfo>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

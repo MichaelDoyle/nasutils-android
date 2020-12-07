@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <content>
+        <dialog_mode>advanced</dialog_mode>
+        <security>user</security>
+        <squeezecenter_package>custom</squeezecenter_package>
+        <services>
+            <service>
+                <name>UPNPAV</name>
+                <status>on</status>
+                <version>not_defined</version>
+            </service>
+            <service>
+                <name>DAAPD</name>
+                <status>on</status>
+                <version>1.0.3</version>
+            </service>
+        </services>
+        <rsync_over_ssh>on</rsync_over_ssh>
+        <vault>off</vault>
+        <ipv6_support>yes</ipv6_support>
+        <browser_language>en-us</browser_language>
+        <utf8_support>1</utf8_support>
+        <protocols>
+            <cifs>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </cifs>
+            <nfs>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </nfs>
+            <afp>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </afp>
+            <ftp>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </ftp>
+            <http>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </http>
+            <http>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </http>
+            <rsync>
+                <enable>enabled</enable>
+                <checked>1</checked>
+            </rsync>
+        </protocols>
+        <streaming_support>yes</streaming_support>
+        <printers>
+            <support>yes</support>
+        </printers>
+        <addons>
+            <addon>
+                <name>override_min_fan_rpm_addon</name>
+                <status>not_installed</status>
+            </addon>
+        </addons>
+        <nas_serial>2EE51AR6000B7</nas_serial>
+        <hostname>barspin</hostname>
+        <gateway>192.168.1.1</gateway>
+        <dns_server_0>68.87.64.150</dns_server_0>
+        <dns_server_1>68.87.75.198</dns_server_1>
+        <network_interfaces>
+            <eth0>
+                <interface_status>ONLINE</interface_status>
+                <interface_type>physical</interface_type>
+                <mac_address>00:1F:33:EA:D5:04</mac_address>
+                <ip_address>192.168.1.201</ip_address>
+                <ipv6_address></ipv6_address>
+                <ip_address_type>static</ip_address_type>
+                <ipv6_address_type>dhcpv6</ipv6_address_type>
+            </eth0>
+            <eth1>
+                <interface_status>OFFLINE</interface_status>
+                <interface_type>physical</interface_type>
+                <mac_address>00:1F:33:EA:D5:05</mac_address>
+                <ip_address>Not Connected</ip_address>
+                <ip_address_type>dhcp</ip_address_type>
+                <ipv6_address_type>off</ipv6_address_type>
+            </eth1>
+        </network_interfaces>
+        <dhcp_display>
+            <support>yes</support>
+        </dhcp_display>
+        <model_info>
+            <display_model>ReadyNAS Ultra 6 [X-RAID2]</display_model>
+            <model>Ultra 6</model>
+            <firmware>RAIDiator 4.2.27</firmware>
+            <display_firmware>RAIDiator 4.2.27</display_firmware>
+            <memory>1024 MB [DDR2]</memory>
+            <architecture>x86</architecture>
+            <channels>6</channels>
+            <ads_support>no</ads_support>
+            <teaming_support>no</teaming_support>
+        </model_info>
+        <product_mode>home</product_mode>
+        <internet_connection>yes</internet_connection>
+        <registration_status>yes</registration_status>
+        <available_addon_url>NOT_FOUND</available_addon_url>
+        <vpd_error>no</vpd_error>
+        <config_error>no</config_error>
+        <status_bar_date>
+            <value>Thu Feb 12 21:12:35 2015</value>
+            <enable>enabled</enable>
+        </status_bar_date>
+        <log_alerts>
+            <message>NO_ALERTS</message>
+        </log_alerts>
+        <normal_alerts>
+            <message>NO_ALERTS</message>
+        </normal_alerts>
+        <fans>
+            <fan>
+                <unit>3</unit>
+                <img>/images/LED/OK.gif</img>
+                <alt>Fan SYS2: 918 RPM</alt>
+                <mo>Fan SYS2: 918 RPM</mo>
+            </fan>
+            <composite_fan_mode>OK</composite_fan_mode>
+        </fans>
+        <temps>
+            <temp>
+                <unit>1</unit>
+                <img>/images/LED/OK.gif</img>
+                <alt>Temp CPU: 50 C / 122 F</alt>
+                <mo>Temp CPU: 50 C / 122 F</mo>
+            </temp>
+            <temp>
+                <unit>2</unit>
+                <img>/images/LED/OK.gif</img>
+                <alt>Temp SYS: 33 C / 91 F</alt>
+                <mo>Temp SYS: 33 C / 91 F</mo>
+            </temp>
+            <composite_temp_mode>OK</composite_temp_mode>
+        </temps>
+        <upss>
+            <ups>
+                <unit>1</unit>
+                <img>/images/LED/OK.gif</img>
+                <alt>UPS 1: CPS UPS CP825, Battery charge: 100%, 60 minutes</alt>
+                <mo>UPS 1: CPS UPS CP825, Battery charge: 100%, 60 minutes</mo>
+            </ups>
+            <composite_ups_mode>OK</composite_ups_mode>
+        </upss>
+        <other_addon>
+            <name><![CDATA[READYNAS_PHOTOS_II]]></name>
+            <name_lc><![CDATA[ReadyNAS Photos II]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/READYNAS_PHOTOS_II/start.sh]]></start>
+            <stop><![CDATA[READYNAS_PHOTOS_II]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[1.0.6]]></version>
+            <current_url>
+                <![CDATA[http://www.readynas.com/download/addons/x86/current/READYNAS_PHOTOS_II_CURRENT.xml]]></current_url>
+            <detail_url><![CDATA[http://www.readynas.com/photos2]]></detail_url>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[READYNASREMOTE]]></name>
+            <name_lc><![CDATA[ReadyNAS Remote]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/READYNASREMOTE/start.sh]]></start>
+            <stop><![CDATA[READYNASREMOTE]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[1.0.9.78]]></version>
+            <current_url>
+                <![CDATA[http://www.readynas.com/download/remote/READYNASREMOTE_CURRENT.xml]]></current_url>
+            <detail_url><![CDATA[http://www.readynas.com/remote]]></detail_url>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[ISTATD]]></name>
+            <name_lc><![CDATA[Istatd]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/ISTATD/start.sh]]></start>
+            <stop><![CDATA[ISTATD]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[1.7]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[SUBSONIC]]></name>
+            <name_lc><![CDATA[Subsonic]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/SUBSONIC/start.sh]]></start>
+            <stop><![CDATA[SUBSONIC]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[4.9.00]]></version>
+            <current_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/SUBSONIC_CURRENT.xml]]></current_url>
+            <detail_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/SUBSONIC_REL.html]]></detail_url>
+            <icon_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/SUBSONIC_ICON.jpg]]></icon_url>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[TRANSMISSION]]></name>
+            <name_lc><![CDATA[Transmission]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/TRANSMISSION/start.sh]]></start>
+            <stop><![CDATA[TRANSMISSION]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[2.82.00]]></version>
+            <current_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/TRANSMISSION_CURRENT.xml]]></current_url>
+            <detail_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/TRANSMISSION_REL.html]]></detail_url>
+            <icon_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/TRANSMISSION_ICON.jpg]]></icon_url>
+        </other_addon>
+        <volume_expansion>false</volume_expansion>
+        <file_system_extents>yes</file_system_extents>
+        <raid_type>XRAID2</raid_type>
+        <iscsi_support>yes</iscsi_support>
+        <iscsi_module>LIO</iscsi_module>
+        <queued_volumes></queued_volumes>
+        <in_progress_volumes></in_progress_volumes>
+        <available_volumes>
+            <add_volume>false</add_volume>
+            <volume>
+                <name>c</name>
+                <usage>1363 GB (36%) of 3692 GB used</usage>
+                <pct_used>36</pct_used>
+                <expand_volume>hidden</expand_volume>
+                <limit>-10240 MB</limit>
+                <migrate5to6>show</migrate5to6>
+                <migrate5to6_expand_volume>checked</migrate5to6_expand_volume>
+                <raid10_ifwarn>no</raid10_ifwarn>
+                <snapshot_size>10</snapshot_size>
+                <snapshot_message>Additional 10 GB reserved for snapshots</snapshot_message>
+                <raid_level>X2</raid_level>
+                <raid_status><![CDATA[Redundant]]></raid_status>
+                <raid_status_description><![CDATA[Redundant]]></raid_status_description>
+                <description><![CDATA[Online, X-RAID2, 3 disks, 36% of 3692 GB used]]></description>
+                <mode>OK</mode>
+            </volume>
+        </available_volumes>
+        <composite_volume_mode>OK</composite_volume_mode>
+        <standard_drives>
+            <standard_drive>sda</standard_drive>
+            <standard_drive>sdb</standard_drive>
+            <standard_drive>sdc</standard_drive>
+        </standard_drives>
+        <drives>
+            <drive>
+                <drive_name>channel1</drive_name>
+                <model>WDC WD20EFRX-68EUZN0</model>
+                <serial>87,68,45,87,67,67,52,77,48,48,55,51,57,55,51,</serial>
+                <firmware>80.00A80</firmware>
+                <mode>OK</mode>
+                <capacity>1863</capacity>
+                <channel>1</channel>
+                <alt>Channel 2: WDC WD20EFRX-68EUZN0 1863 GB</alt>
+                <free_size>0</free_size>
+                <pending_spare>false</pending_spare>
+            </drive>
+            <drive>
+                <drive_name>channel0</drive_name>
+                <model>WDC WD20EFRX-68EUZN0</model>
+                <serial>87,68,45,87,67,67,52,77,48,56,57,55,54,52,49,</serial>
+                <firmware>80.00A80</firmware>
+                <mode>OK</mode>
+                <capacity>1863</capacity>
+                <channel>0</channel>
+                <alt>Channel 1: WDC WD20EFRX-68EUZN0 1863 GB</alt>
+                <free_size>0</free_size>
+                <pending_spare>false</pending_spare>
+            </drive>
+            <drive>
+                <drive_name>channel2</drive_name>
+                <model>WDC WD20EFRX-68AX9N0</model>
+                <serial>87,68,45,87,67,67,49,84,49,52,57,52,50,53,54,</serial>
+                <firmware>80.00A80</firmware>
+                <mode>OK</mode>
+                <capacity>1863</capacity>
+                <channel>2</channel>
+                <alt>Channel 3: WDC WD20EFRX-68AX9N0 1863 GB</alt>
+                <free_size>0</free_size>
+                <pending_spare>false</pending_spare>
+            </drive>
+            <drive_interleave>false</drive_interleave>
+            <composite_disk_mode>OK</composite_disk_mode>
+        </drives>
+        <usb_display>
+            <support>yes</support>
+        </usb_display>
+        <ups_info>
+            <connected>1</connected>
+            <type>hidups</type>
+        </ups_info>
+        <contact_info>
+            <email_address></email_address>
+        </contact_info>
+        <smtp_providers>
+            <provider>
+                <name>Gmail</name>
+                <smtp_server>smtp.gmail.com</smtp_server>
+                <domain>gmail.com</domain>
+                <domain_search>y</domain_search>
+                <smtp_port>587</smtp_port>
+                <secure_access>y</secure_access>
+                <help_url>http://mail.google.com/support/</help_url>
+            </provider>
+            <provider>
+                <name>AOL</name>
+                <smtp_server>smtp.aol.com</smtp_server>
+                <domain>aol.com</domain>
+                <domain_search>n</domain_search>
+                <smtp_port>587</smtp_port>
+                <secure_access>n</secure_access>
+                <help_url>http://help.aol.com/help/product/email/</help_url>
+            </provider>
+            <provider>
+                <name>SBC Yahoo DSL</name>
+                <smtp_server>smtp.sbcglobal.yahoo.com</smtp_server>
+                <domain>yahoo.com</domain>
+                <domain_search>n</domain_search>
+                <smtp_port>465</smtp_port>
+                <secure_access>y</secure_access>
+                <help_url>http://helpme.att.net/memberguide/dsl/communicate-1.html</help_url>
+            </provider>
+        </smtp_providers>
+        <iscsi_sessions></iscsi_sessions>
+        <promo>vault_promo2</promo>
+        <newer_image>NOT_AVAILABLE</newer_image>
+    </content>
+    <error>No Errors</error>
+    <warning>No Warnings</warning>
+</payload>

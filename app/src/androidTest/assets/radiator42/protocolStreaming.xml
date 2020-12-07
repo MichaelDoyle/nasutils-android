@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <content>
+        <upnpavf>
+            <row>
+                <share>
+                    <value>
+                        <selectedValue>media</selectedValue>
+                        <option>
+                            <value>media</value>
+                            <text>media</text>
+                        </option>
+                        <option>
+                            <value>backup</value>
+                            <text>backup</text>
+                        </option>
+                        <option>
+                            <value>dropzone</value>
+                            <text>dropzone</text>
+                        </option>
+                        <option>
+                            <value>webroot</value>
+                            <text>webroot</text>
+                        </option>
+                    </value>
+                    <enable>enabled</enable>
+                </share>
+                <pad1>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad1>
+                <folder>
+                    <value><![CDATA[Music]]></value>
+                    <enable>enabled</enable>
+                </folder>
+                <browse>
+                    <value>Browse</value>
+                    <enable>enabled</enable>
+                </browse>
+                <pad2>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad2>
+                <cont>
+                    <value>
+                        <selectedValue>A</selectedValue>
+                        <option>
+                            <value>ALL</value>
+                            <text>All</text>
+                        </option>
+                        <option>
+                            <value>A</value>
+                            <text>Music</text>
+                        </option>
+                        <option>
+                            <value>P</value>
+                            <text>Pictures</text>
+                        </option>
+                        <option>
+                            <value>V</value>
+                            <text>Video</text>
+                        </option>
+                    </value>
+                    <enable>enabled</enable>
+                </cont>
+                <pad3>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad3>
+                <delete>
+                    <value>0</value>
+                    <enable>enabled</enable>
+                </delete>
+                <id />
+            </row>
+            <row>
+                <share>
+                    <value>
+                        <selectedValue>media</selectedValue>
+                        <option>
+                            <value>media</value>
+                            <text>media</text>
+                        </option>
+                        <option>
+                            <value>backup</value>
+                            <text>backup</text>
+                        </option>
+                        <option>
+                            <value>dropzone</value>
+                            <text>dropzone</text>
+                        </option>
+                        <option>
+                            <value>webroot</value>
+                            <text>webroot</text>
+                        </option>
+                    </value>
+                    <enable>enabled</enable>
+                </share>
+                <pad1>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad1>
+                <folder>
+                    <value><![CDATA[Pictures]]></value>
+                    <enable>enabled</enable>
+                </folder>
+                <browse>
+                    <value>Browse</value>
+                    <enable>enabled</enable>
+                </browse>
+                <pad2>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad2>
+                <cont>
+                    <value>
+                        <selectedValue>P</selectedValue>
+                        <option>
+                            <value>ALL</value>
+                            <text>All</text>
+                        </option>
+                        <option>
+                            <value>A</value>
+                            <text>Music</text>
+                        </option>
+                        <option>
+                            <value>P</value>
+                            <text>Pictures</text>
+                        </option>
+                        <option>
+                            <value>V</value>
+                            <text>Video</text>
+                        </option>
+                    </value>
+                    <enable>enabled</enable>
+                </cont>
+                <pad3>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad3>
+                <delete>
+                    <value>0</value>
+                    <enable>enabled</enable>
+                </delete>
+                <id />
+            </row>
+            <row>
+                <share>
+                    <value>
+                        <selectedValue>media</selectedValue>
+                        <option>
+                            <value>media</value>
+                            <text>media</text>
+                        </option>
+                        <option>
+                            <value>backup</value>
+                            <text>backup</text>
+                        </option>
+                        <option>
+                            <value>dropzone</value>
+                            <text>dropzone</text>
+                        </option>
+                        <option>
+                            <value>webroot</value>
+                            <text>webroot</text>
+                        </option>
+                    </value>
+                    <enable>enabled</enable>
+                </share>
+                <pad1>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad1>
+                <folder>
+                    <value><![CDATA[Video]]></value>
+                    <enable>enabled</enable>
+                </folder>
+                <browse>
+                    <value>Browse</value>
+                    <enable>enabled</enable>
+                </browse>
+                <pad2>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad2>
+                <cont>
+                    <value>
+                        <selectedValue>V</selectedValue>
+                        <option>
+                            <value>ALL</value>
+                            <text>All</text>
+                        </option>
+                        <option>
+                            <value>A</value>
+                            <text>Music</text>
+                        </option>
+                        <option>
+                            <value>P</value>
+                            <text>Pictures</text>
+                        </option>
+                        <option>
+                            <value>V</value>
+                            <text>Video</text>
+                        </option>
+                    </value>
+                    <enable>enabled</enable>
+                </cont>
+                <pad3>
+                    <value>/images/Pix.gif</value>
+                    <enable>enabled</enable>
+                </pad3>
+                <delete>
+                    <value>0</value>
+                    <enable>enabled</enable>
+                </delete>
+                <id />
+            </row>
+        </upnpavf>
+        <BUTTON_REMOVE_2>
+            <value />
+            <enable />
+        </BUTTON_REMOVE_2>
+        <upnpav_tivo_support_enabled>
+            <value>0</value>
+            <enable>enabled</enable>
+        </upnpav_tivo_support_enabled>
+        <slimserver_url>
+            <value />
+            <enable />
+        </slimserver_url>
+        <upnpavf_folder>
+            <value />
+            <enable />
+        </upnpavf_folder>
+        <wo_text_twonkyvision_version>
+            <value />
+            <enable />
+        </wo_text_twonkyvision_version>
+        <upnpavf_share>
+            <value />
+            <enable />
+        </upnpavf_share>
+        <BUTTON_REMOVE_1>
+            <value>
+                <value>S{BUTTON_REMOVE_1}</value>
+            </value>
+            <enable>disabled</enable>
+        </BUTTON_REMOVE_1>
+        <daapd_anchor>
+            <value>http://192.168.1.201:3689</value>
+            <enable>enabled</enable>
+        </daapd_anchor>
+        <tivotable_tivopad>
+            <value />
+            <enable />
+        </tivotable_tivopad>
+        <wizd_page_line_max>
+            <value />
+            <enable />
+        </wizd_page_line_max>
+        <tivo_time_minute>
+            <value />
+            <enable />
+        </tivo_time_minute>
+        <upnpav_folder_tb>
+            <value />
+            <enable />
+        </upnpav_folder_tb>
+        <slimserver_enabled>
+            <value />
+            <enable />
+        </slimserver_enabled>
+        <upnpav_modified>
+            <value>0</value>
+            <enable>enabled</enable>
+        </upnpav_modified>
+        <BUTTON_OK>
+            <value />
+            <enable />
+        </BUTTON_OK>
+        <wizd_folder>
+            <value />
+            <enable />
+        </wizd_folder>
+        <OUTER_TAB>
+            <value />
+            <enable />
+        </OUTER_TAB>
+        <wo_text_wizd_version>
+            <value />
+            <enable />
+        </wo_text_wizd_version>
+        <ms>
+            <value />
+            <enable />
+        </ms>
+        <wo_text_daapd_version>
+            <value>v1.0.3</value>
+            <enable>enabled</enable>
+        </wo_text_daapd_version>
+        <upnpav_database_update_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </upnpav_database_update_enabled>
+        <tivo_sched_day_wed>
+            <value />
+            <enable />
+        </tivo_sched_day_wed>
+        <wizd_secret_code>
+            <value />
+            <enable />
+        </wizd_secret_code>
+        <tivo_sched_day_fri>
+            <value />
+            <enable />
+        </tivo_sched_day_fri>
+        <wizd_secret_directory>
+            <value />
+            <enable />
+        </wizd_secret_directory>
+        <wizd_enabled>
+            <value />
+            <enable />
+        </wizd_enabled>
+        <BUTTON_UPNPAV_ADD_ROW>
+            <value />
+            <enable>enabled</enable>
+        </BUTTON_UPNPAV_ADD_ROW>
+        <upnpavf_browse>
+            <value />
+            <enable />
+        </upnpavf_browse>
+        <daapd_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </daapd_enabled>
+        <tivo_sched_day_sat>
+            <value />
+            <enable />
+        </tivo_sched_day_sat>
+        <tivo_time_hour>
+            <value />
+            <enable />
+        </tivo_time_hour>
+        <tivosavepath>
+            <value />
+            <enable />
+        </tivosavepath>
+        <twonkyvision_anchor>
+            <value />
+            <enable />
+        </twonkyvision_anchor>
+        <wizd_target_jpeg_output>
+            <value />
+            <enable />
+        </wizd_target_jpeg_output>
+        <tivo_sched_day_tue>
+            <value />
+            <enable />
+        </tivo_sched_day_tue>
+        <tivotable_tivoimg>
+            <value />
+            <enable />
+        </tivotable_tivoimg>
+        <upnpavf_pad1>
+            <value />
+            <enable />
+        </upnpavf_pad1>
+        <tivotable_tivoaction>
+            <value />
+            <enable />
+        </tivotable_tivoaction>
+        <ready_tivo_modified>
+            <value>0</value>
+            <enable>enabled</enable>
+        </ready_tivo_modified>
+        <upnpavf_delete>
+            <value />
+            <enable />
+        </upnpavf_delete>
+        <PAGE>
+            <value />
+            <enable />
+        </PAGE>
+        <upnpav_tivo_support_url>
+            <value>http://www.readynas.com/readytivo</value>
+            <enable>enabled</enable>
+        </upnpav_tivo_support_url>
+        <OPERATION>
+            <value />
+            <enable />
+        </OPERATION>
+        <wo_text_upnpav_version>
+            <value>v1.1.0</value>
+            <enable>enabled</enable>
+        </wo_text_upnpav_version>
+        <wo_text_slimserver_version>
+            <value />
+            <enable />
+        </wo_text_slimserver_version>
+        <tivoaccesskey>
+            <value />
+            <enable />
+        </tivoaccesskey>
+        <BUTTON_REMOVE_0>
+            <value />
+            <enable />
+        </BUTTON_REMOVE_0>
+        <BUTTON_UPNPAV_FOLDER_DELETE>
+            <value />
+            <enable>enabled</enable>
+        </BUTTON_UPNPAV_FOLDER_DELETE>
+        <upnpav_fold_filt_list>
+            <value />
+            <enable />
+        </upnpav_fold_filt_list>
+        <daapd_modified>
+            <value>0</value>
+            <enable>enabled</enable>
+        </daapd_modified>
+        <wizd_bookmarks>
+            <value />
+            <enable />
+        </wizd_bookmarks>
+        <tivo_sched_day_mon>
+            <value />
+            <enable />
+        </tivo_sched_day_mon>
+        <wizd_modified>
+            <value>0</value>
+            <enable>enabled</enable>
+        </wizd_modified>
+        <INNER_TAB>
+            <value />
+            <enable />
+        </INNER_TAB>
+        <wizd_flag_allow_delete>
+            <value />
+            <enable />
+        </wizd_flag_allow_delete>
+        <slimserver_modified>
+            <value>0</value>
+            <enable>enabled</enable>
+        </slimserver_modified>
+        <upnpav_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </upnpav_enabled>
+        <wizd_slide_show_seconds>
+            <value />
+            <enable />
+        </wizd_slide_show_seconds>
+        <wizd_max_play_list_items>
+            <value />
+            <enable />
+        </wizd_max_play_list_items>
+        <upnpavf_pad3>
+            <value />
+            <enable />
+        </upnpavf_pad3>
+        <upnpavf_pad2>
+            <value />
+            <enable />
+        </upnpavf_pad2>
+        <tivo_sched_day_thu>
+            <value />
+            <enable />
+        </tivo_sched_day_thu>
+        <wizd_share>
+            <value />
+            <enable />
+        </wizd_share>
+        <squeezecenter_scanner>
+            <value />
+            <enable />
+        </squeezecenter_scanner>
+        <BUTTON_UPNPAV_RESCAN>
+            <value />
+            <enable>enabled</enable>
+        </BUTTON_UPNPAV_RESCAN>
+        <tivo_sched_day_sun>
+            <value />
+            <enable />
+        </tivo_sched_day_sun>
+        <BUTTON_CREATE_CANCEL>
+            <value />
+            <enable />
+        </BUTTON_CREATE_CANCEL>
+        <BUTTON_SETUP>
+            <value />
+            <enable />
+        </BUTTON_SETUP>
+        <upnpavf_cont>
+            <value />
+            <enable />
+        </upnpavf_cont>
+        <twonkyvision_enabled>
+            <value />
+            <enable />
+        </twonkyvision_enabled>
+        <tivo_temptivonameid>
+            <value />
+            <enable />
+        </tivo_temptivonameid>
+    </content>
+    <error>No Errors</error>
+    <warning>No Warnings</warning>
+</payload>

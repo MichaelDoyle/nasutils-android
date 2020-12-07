@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1412736274000" locale="en-us">
+    <xs:transaction ref-id="" type="0">
+        <xs:response ref-id="njl_id_5049" status="success">
+            <xs:result>
+                <xs:get-s resource-id="LocalInstalled" resource-type="LocalApp_Collection">
+                    <LocalApp_Collection>
+                        <Application resource-id="istat" state="running" is-preinstalled="0" is-localapp="1" is-uninitialized="0" on-off="on">
+                            <AppID>SUPERPOUSSIN_GENIEAPP_000030</AppID>
+                            <Category>APP_CAT_NETWORK_OTHER</Category>
+                            <Name>istat</Name>
+                            <Author>Poussin.</Author>
+                            <Version>1.0.1</Version>
+                            <RequireReboot>0</RequireReboot>
+                            <ConfigURL/>
+                            <LaunchURL/>
+                            <ReservePort>5109</ReservePort>
+                            <DebianPackage>istat</DebianPackage>
+                            <ServiceName>fvapp-istat.service</ServiceName>
+                            <Description lang="en-us">Monitor your nas on port 5109 from iphone password is 12345</Description>
+                        </Application>
+                    </LocalApp_Collection>
+                </xs:get-s>
+            </xs:result>
+        </xs:response>
+    </xs:transaction>
+</xs:nml>

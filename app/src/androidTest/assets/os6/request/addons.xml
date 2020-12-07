@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" dst="nas"
+    src="dpv_1412736274000" xmlns="urn:netgear:nas:readynasd">
+    <xs:transaction id="njl_id_5050">
+        <xs:get id="njl_id_5049" resource-id="LocalInstalled" resource-type="LocalApp_Collection" />
+    </xs:transaction>
+</xs:nml>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9">
+    <xs:transaction ref-id="" type="0">
+        <xs:response ref-id="njl_id_719" status="success">
+            <xs:result>
+                <xs:get-s resource-id="InstalledAddons" resource-type="addon_Collection">
+                    <addon_Collection>
+                        <addon>
+                            <name>READYNAS_PHOTOS_II</name>
+                            <launch_url>/installed/installed.html?addon=READYNAS_PHOTOS_II</launch_url>
+                            <status>on</status>
+                            <friendly_name>ReadyNAS Photos II</friendly_name>
+                            <version>1.0.6</version>
+                            <current_url>http://www.readynas.com/download/addons/arm/current/READYNAS_PHOTOS_II_CURRENT.xml:</current_url>
+                            <detail_url>http://www.readynas.com/photos2</detail_url>
+                            <description>&lt;b&gt;ReadyNAS Photos II.&lt;/b&gt; ReadyNAS Photos II is an online photo album sharing application that allows you to upload and share your photos to your friends and family straight from your ReadyNAS.  Your guests will be able to view the photos over Windows, Mac, and mobile devices.</description>
+                            <icon>/READYNAS_PHOTOS_II/READYNAS_PHOTOS_II.jpg</icon>
+                        </addon>
+                    </addon_Collection>
+                </xs:get-s>
+            </xs:result>
+        </xs:response>
+    </xs:transaction>
+</xs:nml>

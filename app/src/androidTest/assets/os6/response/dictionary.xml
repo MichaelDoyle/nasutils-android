@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1373077721000" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_48" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Dictionary" resource-type="System">
+          <Dictionary>
+            <Language code="auto" spell="Auto"/>
+            <Language code="en-us" spell="English">
+              <item key="SOME_KEY"><![CDATA[Some Value]]></item>
+            </Language>
+            <Language code="de" spell="Deutsch"/>
+            <Language code="fr" spell="Français"/>
+            <Language code="ja" spell="日本語"/>
+            <Language code="zh-cn" spell="中文 (简体)"/>
+            <Language code="ru" spell="Русский"/>
+            <Language code="sv" spell="Svenska"/>
+            <Language code="pt" spell="Português"/>
+            <Language code="it" spell="Italiano"/>
+            <Language code="es" spell="Español"/>
+            <Language code="pl" spell="Polski"/>
+            <Language code="cs" spell="Čeština"/>
+            <Language code="nl" spell="Nederlands"/>
+            <Language code="ko" spell="한국어"/>
+          </Dictionary>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

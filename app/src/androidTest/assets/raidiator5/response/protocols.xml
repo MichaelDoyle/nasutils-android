@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="nas_utils" session="3e3e295d5c15484f" locale="en_US">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_6" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Protocols" resource-type="Protocol_Collection">
+          <Protocol_Collection>
+            <Protocol id="cifs" resource-id="cifs" resource-type="Protocol" enabled="1">
+              <Options user-home-directory="1" user-home-directory-recycle="1" user-home-directory-recycle-max-days="0" user-home-directory-recycle-max-size="25000"/>
+            </Protocol>
+            <Protocol id="afp" resource-id="afp" resource-type="Protocol" enabled="1"/>
+            <Protocol id="nfs" resource-id="nfs" resource-type="Protocol" enabled="0">
+              <Options threads="1" user-home-directory="0"/>
+            </Protocol>
+            <Protocol id="ftp" resource-id="ftp" resource-type="Protocol" enabled="0">
+              <Options port="21" auth-mode="anonymous" passive-range-min="1024" passive-range-max="65535" enable-masquerade="0" masquerade-address="icepick" allow-upload-resume="0" user-home-directory="0"/>
+            </Protocol>
+            <Protocol id="snmp" resource-id="snmp" resource-type="Protocol" enabled="0">
+              <Options allow-host="" community="public" trap-destination=""/>
+            </Protocol>
+            <Protocol id="dlna" resource-id="dlna" resource-type="Protocol" enabled="1">
+              <Options auto-scan="1" enable-tivo-server="1" enable-tivo-archiver="1"/>
+            </Protocol>
+            <Protocol id="bonjour" resource-id="bonjour" resource-type="Protocol" enabled="1">
+              <Options cifs="1" afp="1" frontview="1" readynas="1" timemachine="0"/>
+            </Protocol>
+            <Protocol id="rsync" resource-id="rsync" resource-type="Protocol" enabled="0"/>
+            <Protocol id="smartnetwork" resource-id="smartnetwork" resource-type="Protocol" enabled="1">
+              <Options hostname="genie.netgear.com"/>
+            </Protocol>
+            <Protocol id="upnpd" resource-id="upnpd" resource-type="Protocol" enabled="1"/>
+            <Protocol id="http" resource-id="http" resource-type="Protocol" enabled="1">
+              <Options login-enabled="0" share-name=""/>
+              <Share_Collection>
+                <Share id="2" resource-id="2" resource-type="Share">
+                  <Name>backup</Name>
+                </Share>
+                <Share id="1" resource-id="1" resource-type="Share">
+                  <Name>media</Name>
+                </Share>
+              </Share_Collection>
+            </Protocol>
+            <Protocol id="https" resource-id="https" resource-type="Protocol" enabled="1">
+              <Options port="0" ssl-key-host="192.168.1.21"/>
+            </Protocol>
+          </Protocol_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

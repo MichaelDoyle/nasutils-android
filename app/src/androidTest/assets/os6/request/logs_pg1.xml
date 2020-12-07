@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9"
+    xmlns="urn:netgear:nas:readynasd" src="dpv_1373076938000" dst="nas">
+    <xs:transaction id="njl_id_783">
+        <xs:query id="njl_id_782" resource-type="Log_Collection">
+            <xs:qualifier>
+                <xs:page direction="1" start-index="0" count="12" />
+            </xs:qualifier>
+            <xs:criterion>
+                <xs:and>
+                    <xs:greater-equal property="TimeStamp" value="0" />
+                    <xs:lesser-equal property="TimeStamp" value="0" />
+                    <xs:equal property="Severity_In"
+                        value="'err','crit','emerge','warning','alert','info','notice'" />
+                </xs:and>
+            </xs:criterion>
+        </xs:query>
+    </xs:transaction>
+</xs:nml>

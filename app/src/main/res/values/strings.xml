@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2013-2020 Michael J Doyle
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">NAS Utils</string>
+    
+    <!-- NAS Device List Activity  -->
+    
+    <string name="button_add_device">Add Device</string>
+    <string name="icon_nas">NAS Icon</string>
+    <string name="no_devices">No Devices Configured</string>
+    <string name="select_device">Select Device</string>
+    
+    <!-- NAS Device Activity  -->
+    
+    <string name="header_device_details">Device Details</string>
+    <string name="header_admin_account">Admin Account</string>
+    <string name="header_wol">Wake-On-Lan</string>
+    <string name="header_ssh">SSH</string>
+    <string name="header_istat">iStat</string>
+    <string name="label_server_hostname">DNS Name/IP</string>
+    <string name="label_server_port">Port</string>
+    <string name="label_server_mac">MAC Address</string>
+    <string name="label_server_username">Username</string>
+    <string name="label_server_password">Password</string>
+    <string name="label_server_model">Model</string>
+    <string name="label_server_name">Nickname</string>
+    <string name="label_server_ssh_username">Username</string>
+    <string name="label_server_ssh_port">Port</string>
+    <string name="label_server_istat_passcode">Passcode</string>
+    <string name="label_server_istat_port">Port</string>
+    <string name="checkbox_use_admin">Use admin account</string>
+    <string name="value_default_server_port">443</string>
+    <string name="value_default_ssh_port">22</string>
+    <string name="value_default_istat_port">5109</string>
+    <string name="button_test_settings">Test Settings</string>
+    <string name="dialog_testing_settings">Testing Settings</string>
+        
+    <!-- Menu Activity -->
+    
+    <string name="main_navigation_logs">Logs</string>
+    <string name="main_navigation_power">Power</string>
+    <string name="main_navigation_status">Health/Status</string>
+    <string name="main_navigation_istat">Telemetry (iStat)</string>
+    <string name="main_navigation_services">Services</string>
+    <string name="main_navigation_ssh">SSH Terminal</string>
+    <string name="main_navigation_ftp">FTP Browser</string>
+    <string name="main_navigation_backups">Backup Jobs</string>
+    <string name="main_navigation_addons">Add Ons</string>
+
+    <string name="ssh_dialog_header">No SSH Client Found</string>
+    <string name="ssh_dialog_message">ConnectBot must be installed to use this functionality.</string>
+    <string name="ftp_dialog_header">No FTP Client Found</string>
+    <string name="ftp_dialog_message">AndFTP must be installed to use this functionality.</string>
+    <string name="install_dialog_positive">Install it</string>
+    <string name="install_dialog_negative">Never mind&#8230;</string>
+    
+    <!-- Settings Activity -->
+    
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_category_general">General</string>
+    <string name="title_category_advanced">Advanced</string>
+    <string name="title_list_temp">Temperature Units</string>
+    <string name="title_analytics">Usage Statistics</string>
+    <string name="title_conn_timeout">Connection Timeout (seconds)</string>
+    <string name="title_sock_timeout">Read Timeout (seconds)</string>
+    <string name="summary_list_temp">Temperature Units</string>
+    <string name="summary_analytics">Automatically send usage statistics and crash reports</string>
+    <string name="summary_conn_timeout">Timeout when establishing connection to the NAS</string>
+    <string name="summary_sock_timeout">Timeout when receiving data from the NAS</string>
+     
+    <!-- About Activity -->
+    
+    <string name="title_activity_about">About</string>
+           
+    <!-- Logs Activity -->
+    
+    <string name="title_activity_logs">Logs</string>
+    <string name="icon_log">Log Icon</string>
+    <string name="header_today">Today</string>
+    <string name="header_seven">Past 7 Days</string>
+    <string name="header_thirty">Past 30 Days</string>
+    <string name="header_year">Past Year</string>
+           
+    <!-- Status Activity -->
+    
+    <string name="title_activity_status">Status</string>
+    <string name="tab_label_device">Device</string>
+    <string name="tab_label_network">Network</string>
+    <string name="tab_label_storage">Storage</string>
+    
+    <!-- Status Fragment -->
+        
+    <string name="device_details">Device Details</string>
+    <string name="device_table_hostname_label">Hostname</string>
+    <string name="device_table_serial_label">Serial</string>
+    <string name="device_table_model_label">Model</string>
+    <string name="device_table_firmware_label">Firmware</string>
+    <string name="device_table_memory_label">Memory</string>
+    <string name="device_table_arch_label">Arch</string>
+    
+    <string name="network_interface_physical">physical</string>
+    <string name="network_interface_virtual">virtual</string>
+    <string name="network_interface_aggregate">aggregate</string>
+    <string name="fan_system">System Fan</string>
+    <string name="button_recalibrate">Recalibrate</string>
+    
+    <string name="volume_used">{1} GB ({2}%) of {3} GB used</string>
+    
+    <string name="ups_table_battery_charge_label">Battery Charge</string>
+    <string name="ups_table_battery_runtime_label">Battery Runtime</string>
+        
+    <!-- Network Fragment -->
+    
+    <string name="network_table_type_label">Type</string>
+    <string name="network_table_over_label">Over</string>
+    <string name="network_table_mode_label">Teaming Mode</string>
+    <string name="network_table_mac_label">MAC Address</string>
+    <string name="network_table_ip_label">IP Address</string>
+    <string name="network_table_ip_type_label">IP Type</string>
+    <string name="network_table_ipv6_label">IPv6 Address</string>
+    
+    <!-- Storage Fragment -->
+    
+    <string name="volume">Volume</string>
+    <string name="volume_table_raid_level_label">RAID Level</string>
+    <string name="volume_table_raid_status_label">RAID Status</string>
+    <string name="disk_table_model_label">Model</string>
+    <string name="disk_table_serial_label">Serial</string>
+    <string name="disk_table_firmware_label">Firmware</string>
+    <string name="disk_table_capacity_label">Capacity</string>
+    <string name="disk_table_channel_label">Channel</string>
+    <string name="disk_table_device_name_label">Device</string>
+    <string name="button_locate">Locate</string>
+    <string name="button_smart">SMART+</string>
+    <string name="dialog_title_smart_info">SMART+ Info</string>
+    
+    <!-- Services Activity -->
+       
+    <string name="title_activity_services">Services</string>
+    
+    <string name="service_cifs">CIFS</string>
+    <string name="service_afp">AFP</string>
+    <string name="service_nfs">NFS</string>
+    <string name="service_ftp">FTP</string>
+    <string name="service_daap">iTunes</string>
+    <string name="service_snmp">SNMP</string>
+    <string name="service_ssh">SSH</string>
+    <string name="service_replicate">Replicate</string>
+    <string name="service_replisync">Replisync</string>
+    <string name="service_smartnetwork">genie+ Marketplace</string>
+    <string name="service_upnpd">UPnP</string>
+    <string name="service_rsync">Rsync</string>
+    <string name="service_dlna">ReadyDLNA</string>
+    <string name="service_http">HTTP</string>
+    <string name="service_https">HTTPS</string>
+    <string name="service_antivirus">Anti-Virus</string>
+    <string name="service_readycloud">Ready Cloud</string>
+    <string name="service_bonjour">Bonjour</string>
+    
+    <string name="label_bonjour_advertise_frontview">Advertise FrontView</string>
+    <string name="label_bonjour_advertise_printers">Advertise printers</string>
+    <string name="label_bonjour_advertise_afp">Advertise AFP service</string>
+    <string name="label_ftp_port">Port</string>
+    <string name="label_ftp_auth_mode">Auth mode</string>
+    <string name="label_ftp_passive_ports">Passive Ports</string>
+    <string name="label_ftp_masquerade_as">Masquerade As</string>
+    <string name="label_ftp_max_rate_up">Max Rate Up</string>
+    <string name="label_ftp_max_rate_down">Max Rate Down</string>
+    <string name="label_ftp_ftps">Enable FTPS</string>
+    <string name="label_ftp_force_ftps">Force FTPS</string>
+    <string name="label_ftp_server_log_transfer">Enable FTP server log transfer</string>
+    <string name="label_ftp_upload_resume">Allow upload resumes</string>
+    <string name="label_http_default_share">Default Share</string>
+    <string name="label_http_login_authentication">Login authentication on this share</string>
+    <string name="label_https_port1">Port 1</string>
+    <string name="label_https_port2">Port 2</string>
+    <string name="label_https_ssl_key_host">SSL Key Host</string>
+    <string name="label_itunes_server_name">Server Name</string>
+    <string name="label_itunes_password">Password</string>
+    <string name="label_itunes_directory">Directory</string>
+    <string name="label_nfs_threads">NFS Threads</string>
+    <string name="label_nfs_nfsv4_domain">NFSv4 Domain</string>
+    <string name="label_nfs_enable_nfsv4">Enable NFSv4</string>
+    <string name="label_readydlna_auto_scan">Automatically update database</string>
+    <string name="label_readydlna_tivo_support">Enable TiVo® support</string>
+    <string name="label_snmp_hosts_allowed">Hosts Allowed</string>
+    <string name="label_snmp_community">Community</string>
+    <string name="label_snmp_trap_destination">Trap Destination</string>
+    <string name="label_hyphen"> - </string>
+    <string name="label_kbs"> KB/s </string>
+    <string name="label_contact">Contact</string>
+    <string name="label_location">Location</string>
+    <string name="button_rescan">Rescan Media Folders</string>
+
+    <!-- Power Activity -->
+    
+    <string name="button_restart">Restart</string>
+    <string name="button_shutdown">Shutdown</string>
+    <string name="button_wol">Wake On Lan</string>
+    <string name="default_packets">3</string>
+    <string name="default_wol_port">9</string>
+    <string name="header_shutdown">Shutdown</string>
+    <string name="header_wake_on_lan">Wake-On-Lan</string>
+    <string name="label_fix_quotas">Check and fix quotas on next boot</string>
+    <string name="label_packets">Packets to send</string>
+    <string name="label_send_as_broadcast">Send as Broadcast</string>
+    <string name="label_wol_port">Port</string>
+    <string name="label_volume_scan">Perform volume scan on next boot</string>
+    <string name="title_activity_power">Power Options</string>
+    
+    <string name="dialog_title_shutdown">Confirm Shutdown</string>
+    <string name="dialog_message_shutdown">Are you sure you want to shutdown?</string>
+    <string name="dialog_positive_button_label_shutdown">Shutdown</string>
+    <string name="dialog_negative_button_label_shutdown">Cancel</string>
+    
+    <string name="dialog_title_restart">Confirm Restart</string>
+    <string name="dialog_message_restart">Are you sure you want to restart?</string>
+    <string name="dialog_positive_button_label_restart">Restart</string>
+    <string name="dialog_negative_button_label_restart">Cancel</string>
+    
+    <string name="dialog_title_wol">Confirm Wake-On-Lan</string>
+    <string name="dialog_message_wol">Are you sure you want to send a WOL packet?</string>
+    <string name="dialog_positive_button_label_wol">Send WOL Packet</string>
+    <string name="dialog_negative_button_label_wol">Cancel</string>
+    
+    <string name="wol_success">WOL packet(s) sent.</string>
+    <string name="wol_port_validation">Port must be from 1 - 65535</string>
+    
+    <!-- Telemetry Activity -->
+       
+    <string name="title_activity_telemetry">Telemetry (iStat)</string>
+    <string name="label_uptime">Uptime:</string>
+    <string name="label_load_averages">Load Averages:</string>
+    <string name="label_wired">Wired:</string>
+    <string name="label_active">Active:</string>
+    <string name="label_inactive">Inactive:</string>
+    <string name="label_free">Free:</string>
+    <string name="label_page_ins">Page Ins:</string>
+    <string name="label_page_outs">Page Outs:</string>
+    <string name="label_swap_total">Swap Total:</string>
+    <string name="label_swap_used">Swap Used:</string>
+    <string name="label_upload">Upload:</string>
+    <string name="label_download">Download:</string>
+    <string name="label_system">System:</string>
+    <string name="label_user">User:</string>
+    <string name="label_nice">Nice:</string>
+    <string name="label_idle">Idle:</string>
+    <string name="title_memory">Memory</string>
+    <string name="title_general">General</string>
+    <string name="title_cpu">CPU</string>
+    <string name="title_network">Network</string>
+    <string name="connection_interrupted">Connection interrupted. Retrying&#8230;</string>
+    
+    <string name="dialog_dontshowagain">Don\'t tell me again.</string>
+    <string name="dialog_title_istat">Add-On Required</string>
+    <string name="dialog_title_auth_failed">Authorization Failed</string>
+    <string name="dialog_message_istat">This feature requires iStat to be installed on your ReadyNAS.\n\nFor the ReadyNAS 100/300/500 series devices, you can install it from the \"Apps\" tab in FrontView.\n\nFor older devices, see the following instructions from the ReadyNAS forums:\n\n<a href="http://www.readynas.com/forum/viewtopic.php?f=48&amp;t=33785">ReadyNAS Ultra/Pro/NVX</a>\n\n<a href="http://www.readynas.com/forum/viewtopic.php?f=47&amp;t=33787">ReadyNAS NV+/Duo\n</a></string>
+    <string name="dialog_message_auth_failed">Please provide the iStat passcode.</string>
+
+    <!-- Backups Activity -->
+
+    <string name="title_activity_backups">Backups</string>
+    <string name="backups_table_status_label">Status</string>
+    <string name="backups_table_sched_label">Schedule</string>
+    <string name="backups_table_source_label">Source</string>
+    <string name="backups_table_dest_label">Destination</string>
+    <string name="button_backup">Backup Now</string>
+
+    <!-- AddOns Activity -->
+
+    <string name="title_activity_addons">Add Ons</string>
+    <string name="addons_table_name_label">Name</string>
+    <string name="addons_table_version_label">Version</string>
+
+    <!-- Error message -->
+    
+    <string name="error_not_found">The connection succeeded, but the request could not be processed. Verify that the correct model is configured.</string>
+    <string name="error_not_implemented">Verify that the correct model is configured. If correct, this NAS may not implement this particular functionality.</string>
+    <string name="error_server_error">The connection succeeded, but the request could not be completed. Verify that Frontview is available.</string>
+    <string name="error_authorization">Authorization failed! Verify username/password.</string>
+    <string name="error_connection_refused">Connection refused. Verify hostname/port.</string>
+    <string name="error_generic">An unexpected error has occurred.</string>
+    <string name="error_logs_generic">Could not load logs, due to an unexpected error.</string>
+    <string name="error_send_generic">Failed to send command, due to an unexpected error.</string>
+    <string name="error_status_generic">Could not load status, due to an unexpected error.</string>
+    <string name="error_unresolved_hostname">Could not resolve hostname.</string>
+    <string name="error_unavailable">Unavailable</string>
+    <string name="error_conn_timeout">Connection timed out. Please ensure that the NAS is available, and that your configuration is correct. If necessary, you may adjust the connection timeout from the settings screen.</string>
+    <string name="error_sock_timeout">Read timed out. Please ensure that the NAS is available, and that your configuration is correct. If necessary, you may adjust the read timeout from the settings screen.</string> 
+    <string name="error_istat">Could not connect to iStat. Please ensure the service is running, and your passcode is correct.</string>
+      
+    <string name="error_nas_config_hostname">Hostname is required. Please check configuration.</string>
+    <string name="error_nas_config_username">Username is required. Please check configuration.</string>
+    <string name="error_nas_config_password">Password is required. Please check configuration.</string>
+    <string name="error_nas_config_model">ReadyNAS model is required. Please check configuration.</string>
+    <string name="error_nas_config_mac">MAC Address is required. Please check configuration.</string>
+    <string name="error_nas_config_ssh_user">SSH Username is required. Please check configuration.</string>
+    <string name="error_nas_config_ssh_port">SSH Port is required. Please check configuration.</string>
+    <string name="error_nas_config_istat_passcode">iStat passcode is required. Please check configuration.</string>
+    <string name="error_nas_config_istat_port">iStat Port is required. Please check configuration.</string>
+    
+    <string name="error_validation_nickname">Nickname is required</string>
+    <string name="error_validation_dns_name">DNS Name/IP is required</string>
+    <string name="error_validation_port">Port is required. Typically 443 for SSH or 80 for HTTP</string>
+    <string name="error_validation_username">Username is required</string>
+    <string name="error_validation_password">Password is required</string>
+    <string name="error_validation_mac">Mac address must be in the format 01:23:45:67:89:AB</string>
+            
+    <!-- General -->
+    
+    <string name="button_ok">OK</string>
+    <string name="button_save">Save</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_rate">Rate NAS Utils</string>
+    <string name="menu_twitter">Follow @NASUtils</string>
+    <string name="success">Success!</string>
+
+    <!-- Teaming Mode -->
+       
+    <string name="teaming_mode_lacp">IEEE 802.3ad LACP</string>
+    <string name="teaming_mode_backup">Active Backup</string>
+    <string name="teaming_mode_transmit">Transmit Load Balancing</string>
+    <string name="teaming_mode_adaptive">Adaptive Load Balancing</string>
+    <string name="teaming_mode_robin">Round-Robin</string>
+    <string name="teaming_mode_xor">XOR</string>
+    <string name="teaming_mode_broadcast">Broadcast</string>
+    
+</resources>

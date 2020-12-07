@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" dst="nas"
+    src="dpv_1412736686000" xmlns="urn:netgear:nas:readynasd">
+    <xs:transaction id="njl_id_720">
+        <xs:get id="njl_id_719" resource-id="InstalledAddons" resource-type="addon_Collection" />
+    </xs:transaction>
+</xs:nml>

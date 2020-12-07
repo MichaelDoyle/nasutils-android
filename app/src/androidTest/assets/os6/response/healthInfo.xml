@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1371354739000" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_3409" status="success">
+      <xs:result>
+        <xs:get-s resource-id="HealthInfo" resource-type="Health_Collection">
+          <Health_Collection>
+            <Enclosure_Health resource-id="controller-0" resource-type="EnclosureHealth" port-label="Internal" nr-cpu="1" nr-fan="1" nr-psu="1" nr-volt="3">
+              <Fan resource-id="CPU" resource-type="Fan_Health" normal-min="712" normal-max="9999">
+                <device_name>Fan</device_name>
+                <device_id>CPU</device_id>
+                <label>CPU Fan</label>
+                <value>5355</value>
+                <status>ok</status>
+                <fan_speed>5355</fan_speed>
+                <fan_status>ok</fan_status>
+              </Fan>
+              <Fan resource-id="1" resource-type="Fan_Health" normal-min="712" normal-max="9999">
+                <device_name>Fan</device_name>
+                <device_id>1</device_id>
+                <label>Fan</label>
+                <value>5355</value>
+                <status>ok</status>
+                <fan_speed>5355</fan_speed>
+                <fan_status>ok</fan_status>
+              </Fan>
+              <Temperature resource-id="aux" resource-type="Temperature_Health" normal-min="1" normal-max="80">
+                <device_name>Temperature</device_name>
+                <device_id>aux</device_id>
+                <label>AUX Temperature</label>
+                <value>40</value>
+                <status>ok</status>
+                <temp_value>40</temp_value>
+                <min_value>1</min_value>
+                <max_value>80</max_value>
+              </Temperature>
+              <Temperature resource-id="cpu" resource-type="Temperature_Health" normal-min="1" normal-max="85">
+                <device_name>Temperature</device_name>
+                <device_id>cpu</device_id>
+                <label>CPU Temperature</label>
+                <value>43</value>
+                <status>ok</status>
+                <temp_value>43</temp_value>
+                <min_value>1</min_value>
+                <max_value>85</max_value>
+              </Temperature>
+              <Temperature resource-id="sys" resource-type="Temperature_Health" normal-min="1" normal-max="80">
+                <device_name>Temperature</device_name>
+                <device_id>sys</device_id>
+                <label>System Temperature</label>
+                <value>40</value>
+                <status>ok</status>
+                <temp_value>40</temp_value>
+                <min_value>1</min_value>
+                <max_value>80</max_value>
+              </Temperature>
+              <Disk resource-id="sdb" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>1</device_id>
+                <disk_model>VBOX HARDDISK</disk_model>
+                <disk_temperature>-1</disk_temperature>
+                <disk_capacity>8589934592</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+              <Disk resource-id="sdc" resource-type="Disk">
+                <device_name>Disk</device_name>
+                <device_id>2</device_id>
+                <disk_model>VBOX HARDDISK</disk_model>
+                <disk_temperature>-1</disk_temperature>
+                <disk_capacity>8589934592</disk_capacity>
+                <disk_status>ONLINE</disk_status>
+              </Disk>
+            </Enclosure_Health>
+            <Ups_Health resource-id="UpsHealths" resource-type="Ups_Health_Collection">
+              <UPS resource-id="UPS@192.168.1.201" resource-type="UPS_Health">
+                <device_name>UPS</device_name>
+                <ups_model>UPS CP825</ups_model>
+                <ups_status>ok</ups_status>
+                <ups_raw_status>OL</ups_raw_status>
+                <battery_runtime>60 min</battery_runtime>
+                <battery_charge>100 %</battery_charge>
+              </UPS>
+            </Ups_Health>
+          </Health_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

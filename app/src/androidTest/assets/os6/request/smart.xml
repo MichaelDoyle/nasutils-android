@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9"
+    dst="nas_utils"
+    src="nas"
+    xmlns="urn:netgear:nas:readynasd" >
+    <xs:transaction id="njl_id_2" >
+        <xs:get id="njl_id_1" resource-id="sdb" resource-type="SMARTInfo"/>
+    </xs:transaction>
+</xs:nml>

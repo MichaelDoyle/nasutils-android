@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1371354739000" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_5466" status="success">
+      <xs:result>
+        <xs:query-s resource-type="Log_Collection">
+          <Log_Collection n_entries="16" n_total_entries="16">
+            <Log id="16" timestamp="1371354434" localized_ts="Sat Jun 15 2013 23:47:14" severity="info" category="system" message-tag="LOGMSG_START_READYNASD"/>
+            <Log id="15" timestamp="1371354434" localized_ts="Sat Jun 15 2013 23:47:14" severity="info" category="system" message-tag="LOGMSG_READYNASD_ABORTED_NOINFO"/>
+            <Log id="14" timestamp="1369868307" localized_ts="Wed May 29 2013 18:58:27" severity="info" category="system" message-tag="LOGMSG_START_READYNASD"/>
+            <Log id="13" timestamp="1369868307" localized_ts="Wed May 29 2013 18:58:27" severity="info" category="system" message-tag="LOGMSG_READYNASD_ABORTED_NOINFO"/>
+            <Log id="12" timestamp="1369432795" localized_ts="Fri May 24 2013 17:59:55" severity="notice" category="volume" message-tag="LOGMSG_RESILVERCOMPLETE_VOLUME">
+              <args VolumeName="data"/>
+            </Log>
+            <Log id="11" timestamp="1369432759" localized_ts="Fri May 24 2013 17:59:19" severity="notice" category="volume" message-tag="LOGMSG_RESILVERSTARTED_VOLUME">
+              <args VolumeName="data"/>
+            </Log>
+            <Log id="10" timestamp="1369432758" localized_ts="Fri May 24 2013 17:59:18" severity="info" category="system" message-tag="LOGMSG_START_READYNASD"/>
+            <Log id="9" timestamp="1369432757" localized_ts="Fri May 24 2013 17:59:17" severity="info" category="system" message-tag="LOGMSG_READYNASD_ABORTED_NOINFO"/>
+            <Log id="8" timestamp="1369100964" localized_ts="Mon May 20 2013 21:49:24" severity="notice" category="system" message-tag="LOGMSG_SENT_ALERT_MESG_FAILED"/>
+            <Log id="7" timestamp="1369100946" localized_ts="Mon May 20 2013 21:49:06" severity="notice" category="system" message-tag="LOGMSG_SENT_ALERT_MESG_FAILED"/>
+            <Log id="6" timestamp="1369100923" localized_ts="Mon May 20 2013 21:48:43" severity="notice" category="system" message-tag="LOGMSG_SENT_ALERT_MESG_FAILED"/>
+            <Log id="5" timestamp="1369100909" localized_ts="Mon May 20 2013 21:48:29" severity="notice" category="system" message-tag="LOGMSG_SENT_ALERT_MESG_FAILED"/>
+          </Log_Collection>
+        </xs:query-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

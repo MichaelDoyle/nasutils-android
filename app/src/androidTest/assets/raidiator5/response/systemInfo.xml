@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="nas_utils" session="92c17e9718de7d2b" locale="en_US">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_2" status="success">
+      <xs:result>
+        <xs:get-s resource-id="SystemInfo" resource-type="SystemInfo">
+          <SystemInfo>
+            <Model>ReadyNAS Duo v2</Model>
+            <Serial>READYNAS-SN</Serial>
+            <Firmware_Name>RAIDiator</Firmware_Name>
+            <Firmware_Version>5.3.10-T3</Firmware_Version>
+            <Memory>256</Memory>
+            <CPU_Number>0</CPU_Number>
+            <CPU_Frequency>0.000000</CPU_Frequency>
+            <MAC_Address>00:00:00:00:00:00</MAC_Address>
+            <Language>en-us</Language>
+            <Raid_Level>X2</Raid_Level>
+            <HDD_Vendor>Western Digital,Seagate</HDD_Vendor>
+            <HDD_Model>WDC WD20EFRX-68EUZN0,Seagate ST2000DL003-9VT166</HDD_Model>
+            <HDD_Serial>WD-SN,ST-SN</HDD_Serial>
+            <HDD_Firmware>80.00A80,CC3C</HDD_Firmware>
+            <Registered>0</Registered>
+            <Raid>
+              <Status>Ok</Status>
+              <Percentage>9.9</Percentage>
+              <Speed>123646</Speed>
+              <Completion-time>236</Completion-time>
+            </Raid>
+          </SystemInfo>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1371354739000" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_31" status="success">
+      <xs:result>
+        <xs:get-s resource-id="SystemInfo" resource-type="SystemInfo">
+          <SystemInfo>
+            <Model>VirtualBox Simulation</Model>
+            <Serial>0</Serial>
+            <Firmware_Name>ReadyNASOS</Firmware_Name>
+            <Firmware_Version>6.0.6</Firmware_Version>
+            <Memory>1024</Memory>
+            <CPU_Number>1</CPU_Number>
+            <CPU_Frequency>2514.322998</CPU_Frequency>
+            <MAC_Address>08:00:27:3A:3A:F0</MAC_Address>
+            <Language>en_us</Language>
+            <Raid_Level>X-RAID2</Raid_Level>
+            <HDD_Vendor/>
+            <HDD_Model/>
+            <HDD_Serial/>
+            <HDD_Firmware/>
+            <Registered>0</Registered>
+            <Raid/>
+            <Anti-Virus-Def-Version>not enabled</Anti-Virus-Def-Version>
+            <Anti-Virus-Last-Updated>2013020018</Anti-Virus-Last-Updated>
+            <Read-Only-Data-Volumes>0</Read-Only-Data-Volumes>
+          </SystemInfo>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

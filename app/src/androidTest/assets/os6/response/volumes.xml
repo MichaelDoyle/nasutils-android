@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="dpv_1371356684000" locale="en-us">
+  <xs:transaction ref-id="" type="0">
+    <xs:response ref-id="njl_id_1975" status="success">
+      <xs:result>
+        <xs:get-s resource-id="Volumes" resource-type="Volume_Collection">
+          <Volume_Collection>
+            <Volume resource-id="data" resource-type="Volume" ejectable="false">
+              <Property_List>
+                <Volume_Name>data</Volume_Name>
+                <Volume_Mode>1</Volume_Mode>
+                <AltRoot/>
+                <DeDup/>
+                <AutoExpand>on</AutoExpand>
+                <AutoReplace>on</AutoReplace>
+                <CacheFile/>
+                <Delegation>on</Delegation>
+                <ListSnapshots>on</ListSnapshots>
+                <Version>0</Version>
+                <Allocated>3009480</Allocated>
+                <Capacity>3009480</Capacity>
+                <Free>3001076</Free>
+                <Available>3001076</Available>
+                <GUID>ac87953e-aec1-4e2e-abaa-ac7df0d14025</GUID>
+                <Health>REDUNDANT</Health>
+                <Checksum>on</Checksum>
+              </Property_List>
+              <vdev_list>
+                <RAID LEVEL="1" ID="0">
+                  <Disk resource-id="sdb"/>
+                  <Disk resource-id="sdc"/>
+                </RAID>
+              </vdev_list>
+            </Volume>
+          </Volume_Collection>
+        </xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>

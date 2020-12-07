@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2013-2020 Michael J Doyle
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+
+    <item name="serial_number" type="id"/>
+    <item name="device_name" type="id"/>
+    <item name="disk_index" type="id"/>
+    <item name="disk_num" type="id"/>
+    <item name="insert" type="id"/>
+    <item name="service" type="id"/>
+    <item name="addon" type="id"/>
+    
+    <item name="service_cifs" type="id"/>
+    <item name="service_afp" type="id"/>
+    <item name="service_nfs" type="id"/>
+    <item name="service_ftp" type="id"/>
+    <item name="service_daap" type="id"/>
+    <item name="service_snmp" type="id"/>
+    <item name="service_ssh" type="id"/>
+    <item name="service_replicate" type="id"/>
+    <item name="service_replisync" type="id"/>
+    <item name="service_smartnetwork" type="id"/>
+    <item name="service_upnpd" type="id"/>
+    <item name="service_rsync" type="id"/>
+    <item name="service_dlna" type="id"/>
+    <item name="service_http" type="id"/>
+    <item name="service_https" type="id"/>
+    <item name="service_antivirus" type="id"/>
+    <item name="service_readycloud" type="id"/>
+    <item name="service_bonjour" type="id"/>
+    
+</resources>

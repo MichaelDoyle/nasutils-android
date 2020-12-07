@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <content>
+        <ftp_passive_start>
+            <value>1024</value>
+            <enable>enabled</enable>
+        </ftp_passive_start>
+        <ftp_passive_end>
+            <value>65535</value>
+            <enable>enabled</enable>
+        </ftp_passive_end>
+        <INNER_TAB>
+            <value />
+            <enable />
+        </INNER_TAB>
+        <http_webserver_share>
+            <value>
+                <value>
+                    <selectedValue>0</selectedValue>
+                </value>
+                <option>
+                    <value>0</value>
+                    <text>None selected</text>
+                </option>
+                <option>
+                    <value>media</value>
+                    <text>media</text>
+                </option>
+            </value>
+            <enable>enabled</enable>
+        </http_webserver_share>
+        <https_enabled>
+            <value>1</value>
+            <enable>disabled</enable>
+        </https_enabled>
+        <https_ssl_key_host>
+            <value>192.168.1.201</value>
+            <enable>enabled</enable>
+        </https_ssl_key_host>
+        <ftp_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </ftp_enabled>
+        <ftp_upload_resume>
+            <value>
+                <selectedValue>0</selectedValue>
+            </value>
+            <enable>enabled</enable>
+        </ftp_upload_resume>
+        <afp_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </afp_enabled>
+        <OUTER_TAB>
+            <value />
+            <enable />
+        </OUTER_TAB>
+        <ms>
+            <value />
+            <enable />
+        </ms>
+        <https_port1>
+            <value>443</value>
+            <enable>disabled</enable>
+        </https_port1>
+        <nfs_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </nfs_enabled>
+        <PAGE>
+            <value />
+            <enable />
+        </PAGE>
+        <cifs_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </cifs_enabled>
+        <ftp_port>
+            <value>21</value>
+            <enable>enabled</enable>
+        </ftp_port>
+        <ftp_masquerade_address>
+            <value>twentyinches.dyndns.org</value>
+            <enable>enabled</enable>
+        </ftp_masquerade_address>
+        <OPERATION>
+            <value />
+            <enable />
+        </OPERATION>
+        <http_webserver_share_use_password>
+            <value>
+                <value>
+                    <selectedValue>1</selectedValue>
+                </value>
+            </value>
+            <enable>enabled</enable>
+        </http_webserver_share_use_password>
+        <https_port>
+            <value />
+            <enable>enabled</enable>
+        </https_port>
+        <http_enabled>
+            <value>1</value>
+            <enable>enabled</enable>
+        </http_enabled>
+        <nfs_threads>
+            <value>
+                <option>
+                    <value>1</value>
+                    <text>1</text>
+                </option>
+                <option>
+                    <value>2</value>
+                    <text>2</text>
+                </option>
+                <option>
+                    <value>3</value>
+                    <text>3</text>
+                </option>
+                <option>
+                    <value>4</value>
+                    <text>4</text>
+                </option>
+                <option>
+                    <value>5</value>
+                    <text>5</text>
+                </option>
+                <option>
+                    <value>6</value>
+                    <text>6</text>
+                </option>
+                <option>
+                    <value>7</value>
+                    <text>7</text>
+                </option>
+                <option>
+                    <value>8</value>
+                    <text>8</text>
+                </option>
+                <option>
+                    <value>9</value>
+                    <text>9</text>
+                </option>
+                <option>
+                    <value>10</value>
+                    <text>10</text>
+                </option>
+                <option>
+                    <value>11</value>
+                    <text>11</text>
+                </option>
+                <option>
+                    <value>12</value>
+                    <text>12</text>
+                </option>
+                <option>
+                    <value>13</value>
+                    <text>13</text>
+                </option>
+                <option>
+                    <value>14</value>
+                    <text>14</text>
+                </option>
+                <option>
+                    <value>15</value>
+                    <text>15</text>
+                </option>
+                <option>
+                    <value>16</value>
+                    <text>16</text>
+                </option>
+                <value>
+                    <selectedValue>1</selectedValue>
+                </value>
+            </value>
+            <enable>enabled</enable>
+        </nfs_threads>
+        <rsync_enabled>
+            <value>0</value>
+            <enable>enabled</enable>
+        </rsync_enabled>
+        <afp_advertise_atalkd>
+            <value>0</value>
+            <enable>enabled</enable>
+        </afp_advertise_atalkd>
+        <ftp_mode>
+            <value>
+                <selectedValue>user</selectedValue>
+            </value>
+            <enable>enabled</enable>
+        </ftp_mode>
+        <BUTTON_GENERATE_NEW_KEY>
+            <value />
+            <enable />
+        </BUTTON_GENERATE_NEW_KEY>
+        <afp_advertise_bonjour>
+            <value>1</value>
+            <enable>enabled</enable>
+        </afp_advertise_bonjour>
+    </content>
+    <error>No Errors</error>
+    <warning>No Warnings</warning>
+</payload>

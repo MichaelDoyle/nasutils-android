@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <content>
+        <other_addon>
+            <name><![CDATA[READYNAS_PHOTOS_II]]></name>
+            <name_lc><![CDATA[ReadyNAS Photos II]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/READYNAS_PHOTOS_II/start.sh]]></start>
+            <stop><![CDATA[READYNAS_PHOTOS_II]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[1.0.6]]></version>
+            <current_url>
+                <![CDATA[http://www.readynas.com/download/addons/x86/current/READYNAS_PHOTOS_II_CURRENT.xml]]>
+            </current_url>
+            <detail_url><![CDATA[http://www.readynas.com/photos2]]></detail_url>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[READYNASREMOTE]]></name>
+            <name_lc><![CDATA[ReadyNAS Remote]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/READYNASREMOTE/start.sh]]></start>
+            <stop><![CDATA[READYNASREMOTE]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[1.0.9.78]]></version>
+            <current_url>
+                <![CDATA[http://www.readynas.com/download/remote/READYNASREMOTE_CURRENT.xml]]>
+            </current_url>
+            <detail_url><![CDATA[http://www.readynas.com/remote]]></detail_url>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[ISTATD]]></name>
+            <name_lc><![CDATA[Istatd]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/ISTATD/start.sh]]></start>
+            <stop><![CDATA[ISTATD]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[1.7]]></version>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[SUBSONIC]]></name>
+            <name_lc><![CDATA[Subsonic]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/SUBSONIC/start.sh]]></start>
+            <stop><![CDATA[SUBSONIC]]></stop>
+            <status>off</status>
+            <running>not_present</running>
+            <version><![CDATA[4.9.00]]></version>
+            <current_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/SUBSONIC_CURRENT.xml]]>
+            </current_url>
+            <detail_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/SUBSONIC_REL.html]]>
+            </detail_url>
+            <icon_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/SUBSONIC_ICON.jpg]]>
+            </icon_url>
+        </other_addon>
+        <other_addon>
+            <name><![CDATA[TRANSMISSION]]></name>
+            <name_lc><![CDATA[Transmission]]></name_lc>
+            <start><![CDATA[/etc/frontview/addons/bin/TRANSMISSION/start.sh]]></start>
+            <stop><![CDATA[TRANSMISSION]]></stop>
+            <status>on</status>
+            <running>OK</running>
+            <version><![CDATA[2.82.00]]></version>
+            <current_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/TRANSMISSION_CURRENT.xml]]>
+            </current_url>
+            <detail_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/TRANSMISSION_REL.html]]>
+            </detail_url>
+            <icon_url>
+                <![CDATA[https://www.readynas.com/contributed/super-poussin/x86/TRANSMISSION_ICON.jpg]]>
+            </icon_url>
+        </other_addon>
+    </content>
+    <error>No Errors</error>
+    <warning>No Warnings</warning>
+</payload>

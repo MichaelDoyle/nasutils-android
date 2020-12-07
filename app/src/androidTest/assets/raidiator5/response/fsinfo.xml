@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:nml xmlns:xs="http://www.netgear.com/protocol/transaction/NMLSchema-0.9" src="nas" dst="browser">
+  <xs:transaction id="volumes">
+    <xs:response ref-id="volumes" status="success">
+      <xs:result>
+        <xs:get-s resource-id="FSInfo" resource-type="FSInfo"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<fsinfo>
+  <volume mount="/c" size="1976928342016" free="1976722530304"/>
+</fsinfo>
+]]></xs:get-s>
+      </xs:result>
+    </xs:response>
+  </xs:transaction>
+</xs:nml>
